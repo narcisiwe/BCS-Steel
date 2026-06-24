@@ -227,7 +227,7 @@ const translations = {
 
 const slides = [
   {
-    image: 'img/LaserCut_1.jpg',
+    image: 'img/hero-laser-cut.jpg',
     title1: {
       lv: 'Tehnoloģijas precizitāte.',
       ru: 'Технологии точности.',
@@ -240,7 +240,7 @@ const slides = [
     }
   },
   {
-    image: 'img/Turning_2.jpg',
+    image: 'img/hero-turning.jpg',
     title1: {
       lv: 'Precīza virpošana.',
       ru: 'Точная токарная обработка.',
@@ -253,7 +253,7 @@ const slides = [
     }
   },
   {
-    image: 'img/Bending_1.jpg',
+    image: 'img/hero-bending.jpg',
     title1: {
       lv: 'Metāla locīšana.',
       ru: 'Гибка металла.',
@@ -266,7 +266,7 @@ const slides = [
     }
   },
   {
-    image: 'img/Welding_1.jpg',
+    image: 'img/hero-welding.jpg',
     title1: {
       lv: 'TIG un lāzera metināšana.',
       ru: 'TIG и лазерная сварка.',

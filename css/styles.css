@@ -223,7 +223,7 @@ img {
 
 .hero-bg {
   background-color: #05090a;
-  background-image: url('../img/LaserCut_1.jpg');
+  background-image: url('../img/hero-laser-cut.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -231,27 +231,27 @@ img {
   transition: opacity 0.55s ease, background-image 0.55s ease;
 }
 
-/* Individual hero image framing.
-   Some source photos have different aspect ratios, so they are positioned separately
-   instead of being visually stretched to the full banner width. */
+/* Hero slideshow images are prepared as wide 1920x760 banners.
+   All slides use cover now, so the design stays premium and consistent
+   without stretching or leaving empty edges. */
 .hero[data-slide='0'] .hero-bg {
   background-size: cover;
   background-position: center center;
 }
 
 .hero[data-slide='1'] .hero-bg {
-  background-size: auto 100%;
-  background-position: right center;
+  background-size: cover;
+  background-position: center center;
 }
 
 .hero[data-slide='2'] .hero-bg {
-  background-size: auto 100%;
-  background-position: right center;
+  background-size: cover;
+  background-position: center center;
 }
 
 .hero[data-slide='3'] .hero-bg {
-  background-size: auto 100%;
-  background-position: right center;
+  background-size: cover;
+  background-position: center center;
 }
 
 .hero-bg.is-changing {
@@ -855,12 +855,6 @@ img {
     width: 100%;
   }
 
-  .hero[data-slide='1'] .hero-bg,
-  .hero[data-slide='2'] .hero-bg,
-  .hero[data-slide='3'] .hero-bg {
-    background-size: cover;
-    background-position: center center;
-  }
 
   .slide-nav {
     position: absolute;
