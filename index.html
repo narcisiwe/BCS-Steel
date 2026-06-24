@@ -1,180 +1,310 @@
-<!DOCTYPE html>
-<html lang="lv" data-theme="dark">
+<!doctype html>
+<html lang="lv">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BCS Steel — metālapstrāde, lāzergriešana, locīšana, metināšana</title>
-  <meta name="description" content="BCS Steel — pilna cikla metālapstrāde: lāzergriešana, metāla locīšana, TIG un lāzera metināšana, virpošanas pakalpojumi." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BCS Steel — Metālapstrāde</title>
+  <meta name="description" content="BCS Steel — lāzergriešana, metāla locīšana, TIG un lāzera metināšana, CNC virpošana." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <div class="site-shell">
-    <header class="header">
-      <a class="brand" href="#home" aria-label="BCS Steel home">
-        <span class="brand-mark"><span></span></span>
-        <span>
-          <strong>BCS STEEL</strong>
-          <small>Precision. Quality. Reliability.</small>
-        </span>
-      </a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="BCS Steel home">
+      <img src="img/Logo_1.png" alt="BCS Steel logo" class="brand-logo" />
+    </a>
 
-      <nav class="nav" aria-label="Main navigation">
-        <a href="#home" data-i18n="nav_home">Sākums</a>
-        <a href="#services" data-i18n="nav_services">Pakalpojumi</a>
-        <a href="#equipment" data-i18n="nav_equipment">Aprīkojums</a>
-        <a href="#materials" data-i18n="nav_materials">Materiāli</a>
-        <a href="#about" data-i18n="nav_about">Par mums</a>
-        <a href="#contacts" data-i18n="nav_contacts">Kontakti</a>
-      </nav>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#home" data-i18n="navHome">Sākums</a>
+      <a href="#services" data-i18n="navServices">Pakalpojumi</a>
+      <a href="#equipment" data-i18n="navEquipment">Aprīkojums</a>
+      <a href="#materials" data-i18n="navMaterials">Materiāli</a>
+      <a href="#about" data-i18n="navAbout">Par mums</a>
+      <a href="#contacts" data-i18n="navContacts">Kontakti</a>
+    </nav>
 
-      <div class="header-actions">
-        <select class="lang-select" id="langSelect" aria-label="Language">
-          <option value="lv">LV</option>
-          <option value="ru">RU</option>
-          <option value="en">EN</option>
-        </select>
-        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme"><span></span></button>
-        <a class="quote-btn" href="#contacts" data-i18n="quote_btn">Pieprasīt piedāvājumu</a>
-        <button class="menu-btn" id="menuBtn" aria-label="Open menu"><span></span><span></span></button>
-      </div>
-    </header>
+    <div class="header-actions">
+      <select class="language-select" id="languageSelect" aria-label="Language">
+        <option value="lv">LV</option>
+        <option value="ru">RU</option>
+        <option value="en">EN</option>
+      </select>
 
-    <main>
-      <section class="hero" id="home">
-        <div class="hero-media" aria-hidden="true"></div>
-        <div class="hero-shade"></div>
-        <div class="hero-content container">
-          <div class="hero-copy text-lock">
-            <p class="eyebrow" data-i18n="hero_eyebrow">Metālapstrāde pilnam ciklam</p>
-            <h1><span data-i18n="hero_title_1">Tehnoloģijas precizitāte.</span><br><em data-i18n="hero_title_2">Rezultāts uzticams.</em></h1>
-            <p class="lead" data-i18n="hero_text">BCS Steel — pilna cikla metālapstrādes uzņēmums. Piedāvājam lāzergriešanu, metāla locīšanu, TIG un lāzera metināšanu, kā arī virpošanas pakalpojumus.</p>
-            <div class="hero-buttons">
-              <a class="btn btn-primary" href="#services"><span data-i18n="hero_btn_1">Mūsu pakalpojumi</span><b>→</b></a>
-              <a class="btn btn-outline" href="#contacts"><span data-i18n="hero_btn_2">Sūtīt pieprasījumu</span><b>→</b></a>
-            </div>
+      <!-- Light theme switch is temporarily hidden.
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme">
+        <span></span>
+      </button>
+      -->
+
+      <a class="btn btn-outline header-quote" href="#contacts" data-i18n="quoteBtn">Pieprasīt piedāvājumu</a>
+
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg" id="heroBg"></div>
+      <div class="hero-shade"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow" data-i18n="heroEyebrow">Pilna cikla metālapstrāde</p>
+
+          <h1>
+            <span data-i18n="heroTitle1">Tehnoloģijas precizitāte.</span>
+            <strong data-i18n="heroTitle2">Rezultāts uzticams.</strong>
+          </h1>
+
+          <p class="hero-text stable-text" data-i18n="heroText">
+            BCS Steel — pilna cikla metālapstrādes uzņēmums. Piedāvājam lāzergriešanu, metāla locīšanu, TIG un lāzera metināšanu, kā arī virpošanas pakalpojumus.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#services">
+              <span data-i18n="servicesBtn">Mūsu pakalpojumi</span>
+              <b>→</b>
+            </a>
+
+            <a class="btn btn-dark" href="#contacts">
+              <span data-i18n="requestBtn">Sūtīt pieprasījumu</span>
+              <b>→</b>
+            </a>
           </div>
 
           <div class="hero-features">
-            <article><i>⚙</i><span data-i18n="feat_1">Mūsdienīgs aprīkojums</span></article>
-            <article><i>⌖</i><span data-i18n="feat_2">Augsta precizitāte un kvalitāte</span></article>
-            <article><i>◇</i><span data-i18n="feat_3">Piegādes termiņu ievērošana</span></article>
+            <div>
+              <span>⚙</span>
+              <b data-i18n="feature1">Mūsdienīgs aprīkojums</b>
+            </div>
+            <div>
+              <span>⌖</span>
+              <b data-i18n="feature2">Augsta precizitāte un kvalitāte</b>
+            </div>
+            <div>
+              <span>◇</span>
+              <b data-i18n="feature3">Piegādes termiņu ievērošana</b>
+            </div>
           </div>
         </div>
-        <div class="slide-numbers" aria-label="Hero slideshow">
-          <button class="is-active" type="button" data-slide="0">01</button>
-          <button type="button" data-slide="1">02</button>
-          <button type="button" data-slide="2">03</button>
-          <button type="button" data-slide="3">04</button>
-        </div>
-      </section>
+      </div>
 
-      <section class="section services container" id="services">
+      <div class="slide-nav" id="slideNav" aria-label="Hero slideshow navigation">
+        <button class="slide-dot active" type="button" data-slide="0">01</button>
+        <button class="slide-dot" type="button" data-slide="1">02</button>
+        <button class="slide-dot" type="button" data-slide="2">03</button>
+        <button class="slide-dot" type="button" data-slide="3">04</button>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
         <div class="section-head">
-          <h2 data-i18n="services_title">Mūsu pakalpojumi</h2>
-          <p data-i18n="services_text">Piedāvājam plašu metālapstrādes pakalpojumu klāstu dažādām rūpniecības nozarēm.</p>
+          <h2 data-i18n="servicesTitle">Mūsu pakalpojumi</h2>
+          <p data-i18n="servicesIntro">Piedāvājam plašu metālapstrādes pakalpojumu klāstu dažādām rūpniecības nozarēm.</p>
         </div>
-        <div class="cards-grid">
-          <article class="service-card">
-            <img src="assets/img/laser-cutting.webp" alt="Laser cutting metal" />
-            <div class="card-body text-lock">
-              <i>⌘</i><h3 data-i18n="svc_laser_title">Lāzergriešana</h3>
-              <p data-i18n="svc_laser_text">Augstas precizitātes lokšņu metāla griešana ar lāzeru uz modernām CNC iekārtām.</p>
-              <a href="#contacts" data-i18n="more">Vairāk</a>
-            </div>
-          </article>
-          <article class="service-card">
-            <img src="assets/img/bending.jpg" alt="Metal bending" />
-            <div class="card-body text-lock">
-              <i>◈</i><h3 data-i18n="svc_bend_title">Metāla locīšana</h3>
-              <p data-i18n="svc_bend_text">Lokšņu metāla locīšana ar augstu precizitāti uz hidrauliskajām lokāmmašīnām un CNC.</p>
-              <a href="#contacts" data-i18n="more">Vairāk</a>
-            </div>
-          </article>
-          <article class="service-card">
-            <img src="assets/img/tig-welding.webp" alt="TIG welding stainless steel" />
-            <div class="card-body text-lock">
-              <i>♨</i><h3 data-i18n="svc_weld_title">TIG un lāzera metināšana</h3>
-              <p data-i18n="svc_weld_text">Kvalitatīva nerūsējošā tērauda, alumīnija un citu metālu metināšana ar TIG un lāzeru.</p>
-              <a href="#contacts" data-i18n="more">Vairāk</a>
-            </div>
-          </article>
-          <article class="service-card">
-            <img src="assets/img/turning.jpg" alt="Turning services" />
-            <div class="card-body text-lock">
-              <i>◎</i><h3 data-i18n="svc_turn_title">Virpošanas pakalpojumi</h3>
-              <p data-i18n="svc_turn_text">Augstas precizitātes detaļu virpošana uz CNC virpām dažādas sarežģītības līmeņa.</p>
-              <a href="#contacts" data-i18n="more">Vairāk</a>
-            </div>
-          </article>
-        </div>
-      </section>
 
-      <section class="equipment-band" id="equipment">
-        <div class="equipment-image" aria-hidden="true"></div>
-        <div class="equipment-overlay"></div>
-        <div class="container equipment-content text-lock">
-          <h2 data-i18n="equipment_title">Mūsdienīgs aprīkojums</h2>
-          <p data-i18n="equipment_text">Mēs ieguldām jaunākajās tehnoloģijās un aprīkojumā, lai nodrošinātu augstākās kvalitātes produkciju un efektivitāti katrā ražošanas posmā.</p>
+        <div class="cards">
+          <article class="service-card stable-card">
+            <img src="img/LaserCut_1.jpg" alt="Laser metal cutting" />
+            <div class="card-body">
+              <div class="card-icon">⌁</div>
+              <h3 data-i18n="laserTitle">Lāzergriešana</h3>
+              <p data-i18n="laserText">Augstas precizitātes lokšņu metāla griešana ar lāzeru uz modernām CNC iekārtām.</p>
+              <a href="#contacts" data-i18n="more">Vairāk →</a>
+            </div>
+          </article>
+
+          <article class="service-card stable-card">
+            <img src="img/Bending_1.jpg" alt="Metal bending" />
+            <div class="card-body">
+              <div class="card-icon">⌘</div>
+              <h3 data-i18n="bendTitle">Metāla locīšana</h3>
+              <p data-i18n="bendText">Lokšņu metāla locīšana ar augstu precizitāti uz hidrauliskajām lokmašīnām vai CNC.</p>
+              <a href="#contacts" data-i18n="more">Vairāk →</a>
+            </div>
+          </article>
+
+          <article class="service-card stable-card">
+            <img src="img/Welding_1.jpg" alt="TIG and laser welding" />
+            <div class="card-body">
+              <div class="card-icon">♨</div>
+              <h3 data-i18n="weldTitle">TIG un lāzera metināšana</h3>
+              <p data-i18n="weldText">Kvalitatīva nerūsējošā tērauda, alumīnija un citu metālu metināšana ar TIG un lāzeru.</p>
+              <a href="#contacts" data-i18n="more">Vairāk →</a>
+            </div>
+          </article>
+
+          <article class="service-card stable-card">
+            <img src="img/Turning_1.jpg" alt="CNC turning" />
+            <div class="card-body">
+              <div class="card-icon">◉</div>
+              <h3 data-i18n="turnTitle">Virpošanas pakalpojumi</h3>
+              <p data-i18n="turnText">Precīza detaļu virpošana pēc rasējumiem, paraugiem vai tehniskās specifikācijas.</p>
+              <a href="#contacts" data-i18n="more">Vairāk →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="equipment" id="equipment">
+      <div class="equipment-bg"></div>
+
+      <div class="container equipment-grid">
+        <div class="equipment-copy">
+          <h2 data-i18n="equipmentTitle">Mūsdienīgs aprīkojums</h2>
+          <p data-i18n="equipmentText">Mēs ieguldām jaunākajās tehnoloģijās un aprīkojumā, lai nodrošinātu augstākās kvalitātes produkciju un efektivitāti katrā ražošanas posmā.</p>
+
           <ul>
-            <li data-i18n="equipment_li_1">Lāzergriešanas iekārtas lokšņu metālam</li>
-            <li data-i18n="equipment_li_2">CNC lokāmmašīnas un virpas</li>
-            <li data-i18n="equipment_li_3">Precīzi mērīšanas instrumenti un kontrole</li>
-            <li data-i18n="equipment_li_4">Automatizēti ražošanas procesi</li>
+            <li data-i18n="equipmentLi1">Lāzergriešanas iekārtas</li>
+            <li data-i18n="equipmentLi2">CNC lokmašīnas un virpas</li>
+            <li data-i18n="equipmentLi3">Precīzi mērīšanas instrumenti un kontrole</li>
+            <li data-i18n="equipmentLi4">Automatizēti ražošanas procesi</li>
           </ul>
-          <a class="btn btn-primary" href="#contacts"><span data-i18n="equipment_btn">Skatīt aprīkojumu</span><b>→</b></a>
-        </div>
-      </section>
 
-      <section class="section stats container" id="materials">
-        <article><strong>0.1 mm</strong><span data-i18n="stat_1">precīza apstrāde</span></article>
-        <article><strong>24/7</strong><span data-i18n="stat_2">pieprasījumu pieņemšana</span></article>
-        <article><strong>CNC</strong><span data-i18n="stat_3">mūsdienīga ražošana</span></article>
-        <article><strong>ISO</strong><span data-i18n="stat_4">procesu kontrole</span></article>
-      </section>
-
-      <section class="section about container" id="about">
-        <div class="about-text text-lock">
-          <h2 data-i18n="about_title">Precīzi. Ātri. Profesionāli.</h2>
-          <p data-i18n="about_text">BCS Steel strādā ar uzņēmumiem, kuriem nepieciešama kvalitatīva metāla detaļu izgatavošana, prototipi vai sērijveida ražošana. Mēs palīdzam no rasējuma līdz gatavai detaļai.</p>
+          <a class="btn btn-primary" href="#contacts">
+            <span data-i18n="equipmentBtn">Skatīt aprīkojumu</span>
+            <b>→</b>
+          </a>
         </div>
-        <div class="process-list">
-          <article><b>01</b><span data-i18n="proc_1">Rasējumu un prasību izvērtēšana</span></article>
-          <article><b>02</b><span data-i18n="proc_2">Ražošanas tehnoloģijas izvēle</span></article>
-          <article><b>03</b><span data-i18n="proc_3">Izgatavošana un kvalitātes kontrole</span></article>
-          <article><b>04</b><span data-i18n="proc_4">Piegāde vai nodošana klientam</span></article>
-        </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="contacts" id="contacts">
-        <div class="container contacts-inner">
-          <div class="text-lock">
-            <h2 data-i18n="contacts_title">Nosūtiet pieprasījumu</h2>
-            <p data-i18n="contacts_text">Atsūtiet rasējumu, materiālu, daudzumu un vēlamo termiņu — sagatavosim piedāvājumu.</p>
-            <div class="contact-lines">
-              <a href="mailto:info@bcssteel.lv">info@bcssteel.lv</a>
-              <a href="tel:+37120000000">+371 20 000 000</a>
-            </div>
+    <section class="section" id="materials">
+      <div class="container split-grid">
+        <div class="text-block">
+          <p class="eyebrow" data-i18n="materialsEyebrow">Materiāli un detaļas</p>
+          <h2 data-i18n="materialsTitle">Darbs ar industriāliem materiāliem</h2>
+          <p data-i18n="materialsText">Strādājam ar tēraudu, nerūsējošo tēraudu, alumīniju un citiem metāliem. Izgatavojam detaļas pēc DXF, DWG, PDF rasējumiem vai klienta parauga.</p>
+        </div>
+
+        <div class="stats">
+          <div>
+            <strong>24h</strong>
+            <span data-i18n="stat1">piedāvājuma sagatavošana</span>
           </div>
-          <form class="quote-form">
-            <input type="text" data-i18n-placeholder="form_name" placeholder="Vārds / uzņēmums" />
-            <input type="email" placeholder="E-mail" />
-            <input type="text" data-i18n-placeholder="form_service" placeholder="Pakalpojums" />
-            <textarea data-i18n-placeholder="form_message" placeholder="Īsi aprakstiet uzdevumu"></textarea>
-            <button class="btn btn-primary" type="button"><span data-i18n="form_btn">Nosūtīt</span><b>→</b></button>
-          </form>
+          <div>
+            <strong>±0.1</strong>
+            <span data-i18n="stat2">precīza apstrāde</span>
+          </div>
+          <div>
+            <strong>QC</strong>
+            <span data-i18n="stat3">kvalitātes pieeja</span>
+          </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
 
-    <footer class="footer container">
-      <span>© <span id="year"></span> BCS Steel</span>
-      <span>Precision. Quality. Reliability.</span>
-    </footer>
-  </div>
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <img class="about-img" src="img/LaserCut_2.jpg" alt="Laser cutting process" />
 
-  <script src="assets/js/script.js"></script>
+        <div class="text-block">
+          <p class="eyebrow" data-i18n="aboutEyebrow">Par BCS Steel</p>
+          <h2 data-i18n="aboutTitle">Precizitāte, termiņi un uzticama sadarbība</h2>
+          <p data-i18n="aboutText">BCS Steel apvieno mūsdienīgas metālapstrādes tehnoloģijas ar praktisku ražošanas pieredzi. Mūsu mērķis ir nodrošināt klientiem kvalitatīvu rezultātu — no vienas detaļas līdz sērijveida pasūtījumiem.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section turning-work" id="turning-work">
+      <div class="container split-grid">
+        <div class="text-block">
+          <p class="eyebrow" data-i18n="turningEyebrow">CNC virpošana</p>
+          <h2 data-i18n="turningWorkTitle">Precīza tokārā apstrāde</h2>
+          <p data-i18n="turningWorkText">Izgatavojam vārpstas, bukses, tapas, adapterus un citas rotācijas detaļas pēc rasējumiem vai paraugiem. Nodrošinām precīzu izmēru kontroli un kvalitatīvu virsmas apstrādi.</p>
+        </div>
+
+        <img class="about-img" src="img/Turning_1.jpg" alt="Turning work example" />
+      </div>
+    </section>
+
+    <section class="section contact" id="contacts">
+      <div class="container contact-grid">
+        <div class="text-block">
+          <p class="eyebrow" data-i18n="contactEyebrow">Kontakti</p>
+          <h2 data-i18n="contactTitle">Nosūtiet rasējumu un saņemiet piedāvājumu</h2>
+          <p data-i18n="contactText">Aizpildiet formu un pievienojiet DXF, DWG vai PDF failu. Mēs sazināsimies ar jums, lai precizētu materiālu, daudzumu un termiņu.</p>
+        </div>
+
+        <form class="quote-form" action="mailto:info@bcssteel.lv" method="post" enctype="text/plain">
+          <div class="form-row">
+            <label>
+              <span data-i18n="formName">Vārds</span>
+              <input type="text" name="name" placeholder="Jānis Bērziņš" required />
+            </label>
+
+            <label>
+              <span data-i18n="formCompany">Uzņēmums</span>
+              <input type="text" name="company" placeholder="SIA ..." />
+            </label>
+          </div>
+
+          <div class="form-row">
+            <label>
+              <span data-i18n="formEmail">E-pasts</span>
+              <input type="email" name="email" placeholder="name@company.lv" required />
+            </label>
+
+            <label>
+              <span data-i18n="formPhone">Telefons</span>
+              <input type="tel" name="phone" placeholder="+371 ..." />
+            </label>
+          </div>
+
+          <label>
+            <span data-i18n="formService">Pakalpojums</span>
+            <select name="service">
+              <option data-i18n="formServiceLaser">Lāzergriešana</option>
+              <option data-i18n="formServiceBending">Metāla locīšana</option>
+              <option data-i18n="formServiceWelding">TIG / lāzera metināšana</option>
+              <option data-i18n="formServiceTurning">Virpošanas pakalpojumi</option>
+              <option data-i18n="formServiceOther">Cits</option>
+            </select>
+          </label>
+
+          <label>
+            <span data-i18n="formMessage">Apraksts</span>
+            <textarea name="message" rows="5" placeholder="Materiāls, biezums, daudzums, termiņš..."></textarea>
+          </label>
+
+          <label class="file-field">
+            <span data-i18n="formFile">Pievienot rasējumu</span>
+            <input type="file" name="drawing" accept=".dxf,.dwg,.pdf,.step,.stp,.jpg,.png" />
+          </label>
+
+          <button class="btn btn-primary full" type="submit">
+            <span data-i18n="formSubmit">Nosūtīt pieprasījumu</span>
+            <b>→</b>
+          </button>
+        </form>
+
+        <!-- Previous compact contact card. Temporarily commented out.
+        <div class="contact-card">
+          <p>info@bcssteel.lv</p>
+          <p>+371 20 000 000</p>
+          <a class="btn btn-primary full" href="mailto:info@bcssteel.lv" data-i18n="emailBtn">Sūtīt pieprasījumu</a>
+        </div>
+        -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <img src="img/Logo_1.png" alt="BCS Steel logo" />
+      <span>© 2026 BCS Steel. Precision. Quality. Reliability.</span>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
