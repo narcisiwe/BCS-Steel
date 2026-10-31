@@ -1,0 +1,26 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Hero motion QA</title><style>html,body{height:100%;margin:0;background:#0b0f14}iframe{width:100%;height:100%;border:0}.evidence{position:fixed;left:-10000px}</style></head><body>
+<iframe title="Hero under test"></iframe><div class="evidence"><pre id="cycles">[]</pre><pre id="media-status">preparing</pre></div>
+<script>
+// Synthetic, unbranded video is test-only. It is never packaged as company footage.
+const frame=document.querySelector('iframe'),changes=[];
+frame.addEventListener('load',()=>{
+ const doc=frame.contentDocument,hero=doc?.querySelector('.hero');if(!hero)return;
+ let previous;
+ function record(){const index=Number(hero.dataset.active);if(index===previous||!Number.isFinite(index))return;previous=index;changes.push({slide:index,heading:doc.querySelector('h1').innerText,at:Date.now(),progress:Number(hero.style.getPropertyValue('--slide-progress'))});document.querySelector('#cycles').textContent=JSON.stringify(changes);}
+ new MutationObserver(record).observe(hero,{attributes:true,attributeFilter:['data-active']});record();
+});
+(async()=>{
+ const query=new URLSearchParams(location.search);
+ if(!query.has('video')){frame.src='/?lang=lv';document.querySelector('#media-status').textContent='posters';return;}
+ if(query.get('video')==='fail'){frame.src='/__qa/hero-page/?clip=missing';document.querySelector('#media-status').textContent='intentional failure';return;}
+ if(typeof MediaRecorder==='undefined'||!HTMLCanvasElement.prototype.captureStream){document.querySelector('#media-status').textContent='unsupported';return;}
+ const canvas=document.createElement('canvas');canvas.width=480;canvas.height=270;const context=canvas.getContext('2d');
+ const stream=canvas.captureStream(24),chunks=[];
+ const recorder=new MediaRecorder(stream,{mimeType:'video/webm'});
+ recorder.ondataavailable=event=>{if(event.data.size)chunks.push(event.data);};
+ recorder.onstop=()=>{stream.getTracks().forEach(track=>track.stop());const clip=URL.createObjectURL(new Blob(chunks,{type:'video/webm'}));frame.src='/__qa/hero-page/?clip='+encodeURIComponent(clip);document.querySelector('#media-status').textContent='synthetic video ready';};
+ const start=performance.now();recorder.start();
+ function draw(time){const progress=Math.min(1,(time-start)/1600);context.fillStyle='#151b22';context.fillRect(0,0,480,270);context.fillStyle='#ff7900';context.fillRect(progress*380,90,100,90);if(progress<1)requestAnimationFrame(draw);else recorder.stop();}
+ requestAnimationFrame(draw);
+})().catch(error=>document.querySelector('#media-status').textContent=error.message);
+</script></body></html>

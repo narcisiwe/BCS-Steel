@@ -112,7 +112,7 @@ Cool industrial neutrals meet a warm, deliberately scarce action signal. Frontma
 
 **Display and Body Font:** Manrope, with Arial and sans-serif fallbacks. The locally hosted variable font spans weights 200–800; Latin extended and Cyrillic subsets support the language set. There is no second display or monospace family.
 
-- **Display:** desktop hero follows the display token. Existing overrides use 72px below 1200px, 64px below 1000px and clamp(40px,10vw,62px) below 700px.
+- **Display:** desktop hero follows the display token. Existing overrides use 72px below 1200px, 64px below 1000px and clamp(40px,10vw,62px) below 700px. Russian hero headings use 35px below 420px.
 - **Headline:** section headings use the headline role; mobile sections use 34px, with about at 36px.
 - **Title:** service/equipment titles use the title role; product titles use 20px. Mobile service titles use 16px.
 - **Body:** section introductions use body-intro. Hero introduction is 17px/1.8, becoming 14px on mobile; card detail is 12px and mobile service detail 11px.
@@ -124,7 +124,7 @@ The centered container tops out at 1320px with 56px side gutters, becoming 32px 
 
 Services use four columns then two at 1000px. Equipment uses three columns, becoming single rows with a 40% image column at 700px. Products show three cards, two below 1000px and an 86%-width card below 700px, preserving the next-card cue. About and contact are two-column layouts that stack at 700px. Form fields remain paired where they fit.
 
-The hero is viewport-scale with a desktop minimum of 720px; mobile uses an 850px composition with room for copy, actions and controls. Capture the hero at page top to evaluate the absolute header in its intended state.
+The hero is viewport-scale with a desktop minimum of 720px; mobile uses an 850px composition with room for copy, actions and controls. Heading and description blocks reserve the largest localized slide copy height to prevent slide changes from shifting the composition. Capture the hero at page top to evaluate the absolute header in its intended state.
 
 ## Elevation & Depth
 
@@ -156,7 +156,9 @@ The original logo and STEEL wordmark sit left; compact links and LV/RU/EN contro
 
 ### Hero and Product Carousels
 
-The hero has four photography/video-capable slides, image fallbacks, a 1.2s crossfade, subtle 10s image settling and an 8s progress line driven by the same JavaScript clock as slide changes, without a separate CSS progress animation. Keep previous/next, direct selection and pause controls. Text changes use a 0.65s eased entrance. Products use horizontal scroll snapping and explicit arrow controls. Reduced motion removes animation, transitions and smooth scrolling.
+The hero has four photography/video-capable slides and image fallbacks. A single requestAnimationFrame clock drives the 7s slide dwell, progress, image motion and 1100ms slide overlap. The outgoing image stays opaque beneath the incoming layer throughout the dissolve. Images scale linearly from 1.03 to 1.12 on desktop, or 1.03 to 1.075 on mobile, with alternating subtle pan directions. Video readiness retains its separate 0.5s CSS dissolve.
+
+Headings enter over 700ms from 24px below; descriptions follow after 150ms over 650ms from 18px, and actions after 250ms over 650ms from 12px, using an eased entrance. Keep previous/next, direct selection and pause controls. Manual selection while paused displays settled, fully visible copy and imagery. Reduced motion disables automatic advance and image/text movement; manual slide changes retain a 200ms fade. Products use horizontal scroll snapping and explicit arrow controls; reduced motion removes CSS animation, transitions and smooth scrolling.
 
 ### About galleries
 

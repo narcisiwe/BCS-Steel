@@ -15,7 +15,7 @@ Open http://127.0.0.1:4173/ . No dependency installation is needed. Stop with Ct
 
 ## Update behavior
 
-- The hero uses one animation-frame clock for both eight-second transitions and progress. Manual changes reset progress; Pause preserves elapsed time. Pointer hover and retained control focus no longer block Play. Hidden pages, an offscreen hero, open lightboxes and reduced motion suspend automatic changes. Inactive videos pause.
+- The hero uses one animation-frame clock for seven-second dwell/progress, a 1100 ms overlapping crossfade, alternating Ken Burns movement and staggered copy entrances. Manual changes reset progress; Pause preserves elapsed time and slideshow motion. Hidden pages, an offscreen hero, open lightboxes and reduced motion suspend automatic changes. Reduced motion retains a short manual fade without spatial movement. Inactive videos pause.
 - Language controls render all content in place, update `html.lang` and localized metadata, use query URLs that work under nested hosting paths, and persist the choice when storage is available. Current slide, form values, attachment selection and carousel positions survive switching. Static locale URLs also remain available for indexing.
 - Two About galleries use real company work photographs and explicitly labeled existing product illustrations. Full-resolution lightbox sources are requested on click; Escape/arrow keys, focus return and touch/native horizontal scrolling are supported. See `GALLERY_IMAGES.md` for every source.
 - HSG G3015X replaces the previous laser machine. Its unverified technical specifications are omitted. The existing image shows production details, not an asserted photograph of that machine. Other verified equipment information remains.
@@ -32,6 +32,7 @@ The imported redesign contains poster images and a video-capable engine, but no 
 - `js/content.js`: all LV/RU/EN copy and validation/accessibility labels.
 - `js/render.js`: shared static/client renderer; `scripts/template.mjs` re-exports it for builds.
 - `js/script.js`: runtime lifecycle, navigation, localization, galleries, lightbox and form.
+- `js/hero.js`: poster/video preparation, clock-driven cinematic motion and hero controls.
 - `js/slideshow-clock.js`: single slideshow timeline.
 - `js/validation.js`: phone/file validation and email-draft construction.
 - `css/styles.css`, `css/fonts.css`: retained industrial styling and self-hosted Manrope.
@@ -57,6 +58,8 @@ node scripts/serve.mjs
 ```
 
 Then run `node tests/browser.mjs` in another terminal. Optional environment variables: `PLAYWRIGHT_MODULE` (module URL) and `BROWSER_EXECUTABLE` (browser path). The `/__qa/` fixture observes real slideshow transitions and intercepts validated drafts before an email client opens. It is not included in `dist/` and is disabled without the QA flag. The shared `tests/connected-browser.mjs` checks were also executed through the connected browser because standalone Edge launch failed in the desktop sandbox. See `UPDATE_REPORT.md` for actual results; no unexecuted suite is marked passed.
+
+Hero-specific QA: `/__qa/hero/` records actual seven-second cycles. Append `?video=1` for a small synthetic canvas-recorded WebM, or `?video=fail` for intentional video failure/poster fallback. These fixtures and clips are test-only and never included as company footage. Current hero results and limitations are in `HERO_ANIMATION_REPORT.md`; evidence is under ignored `work/qa-hero/`.
 
 ## Release
 
