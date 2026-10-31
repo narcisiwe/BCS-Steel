@@ -1,0 +1,370 @@
+{
+  "date": "2026-10-31",
+  "originals": [
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/019/019804e762a90213de8433ca2f257c32/20211208_153135_2x_2x.jpg",
+      "file": "public/media/originals/20211208_153135_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 223447
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/093/093fe826d206269235a057e1883f4db7/20211216_170718_2x_2x.jpg",
+      "file": "public/media/originals/20211216_170718_2x_2x.jpg",
+      "width": 1260,
+      "height": 1260,
+      "bytes": 163830
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/09d/09d56a18152dbdf0513bc7be12600323/20211209_170910_2x_2x.jpg",
+      "file": "public/media/originals/20211209_170910_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 204619
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/0ad/0ada6e8574182d067e9ab3b0c25686d6/20211208_153319_2x_2x.jpg",
+      "file": "public/media/originals/20211208_153319_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 160874
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/119/11909caa3cd38c95bbb5b7a4e65ec3d2/20211208_153220_2x_2x.jpg",
+      "file": "public/media/originals/20211208_153220_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 188043
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/149/149c9ae3724dc14ed64cb3e1afe3670e/20211215_154437_2x_2x.jpg",
+      "file": "public/media/originals/20211215_154437_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 145943
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/182/18203ad26a0a5d3e8472a8b896d00128/20211208_153339_2x_2x.jpg",
+      "file": "public/media/originals/20211208_153339_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 122568
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/2c5/2c5ddddcc4681abb0c2bf46fd2c98bdd/20211215_154416_2x_2x.jpg",
+      "file": "public/media/originals/20211215_154416_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 208535
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/477/47748166d5b6ff6842653b5d3bad1bc3/20211208_153339_2x.jpg",
+      "file": "public/media/originals/20211208_153339_2x.jpg",
+      "width": 1160,
+      "height": 870,
+      "bytes": 81280
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/5c0/5c01a17a1d3f7ffd0bca8aff311bd674/20211208_153251_2x_2x.jpg",
+      "file": "public/media/originals/20211208_153251_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 139514
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/8f0/8f0aa1617ac6f17e88f01f85a492a130/20211216_170508_2x_2x.jpg",
+      "file": "public/media/originals/20211216_170508_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 164962
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/953/9539f1727668e6cfdd2aadd125294a75/20211011_075905_2x_2x.jpg",
+      "file": "public/media/originals/20211011_075905_2x_2x.jpg",
+      "width": 1160,
+      "height": 870,
+      "bytes": 71867
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/96b/96ba2cf0282f2ba277f1f75c0927b46c/20211216_170457_1x.jpg",
+      "file": "public/media/originals/20211216_170457_1x.jpg",
+      "width": 580,
+      "height": 435,
+      "bytes": 40085
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/aaa/aaae11679a3fe909eaf6fba59e975fa9/20211209_133109_2x_2x.jpg",
+      "file": "public/media/originals/20211209_133109_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 116521
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/acc/acce65735bacad1b1ae5d835824da017/20211005_142357_2x_2x.jpg",
+      "file": "public/media/originals/20211005_142357_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 153018
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/b94/b9466f7052835e1ad0d02c7e7b3b09e3/20211209_133137_2x_2x.jpg",
+      "file": "public/media/originals/20211209_133137_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 143188
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/c3c/c3c85109b1415ca837ad6eb466d95b01/20211216_170457_2x_2x.jpg",
+      "file": "public/media/originals/20211216_170457_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 173152
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/d4c/d4cafc05663c14ec419b3a4c21bd7bb0/20211208_153241_2x_2x.jpg",
+      "file": "public/media/originals/20211208_153241_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 163605
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/d8d/d8dcc1657af91d2ac13532bea7c718b7/20211011_080313_2x_2x.jpg",
+      "file": "public/media/originals/20211011_080313_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 110537
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/dab/dab3624232715c7d40287cb6ca5e7133/20211208_153311_2x_2x.jpg",
+      "file": "public/media/originals/20211208_153311_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 216238
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/e84/e84a6477a0ebfa120a5319e04181e0d6/20211208_153339_1x.jpg",
+      "file": "public/media/originals/20211208_153339_1x.jpg",
+      "width": 580,
+      "height": 435,
+      "bytes": 31633
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/eaf/eaf39e3a42bcd4425e93d4815119cfbd/20211216_170457_2x.jpg",
+      "file": "public/media/originals/20211216_170457_2x.jpg",
+      "width": 1160,
+      "height": 870,
+      "bytes": 107600
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/ec1/ec1f8f9379f4742d7cdb0cc60ca620cc/20211208_153143_2x_2x.jpg",
+      "file": "public/media/originals/20211208_153143_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 207717
+    }
+  ],
+  "optimized": [
+    {
+      "file": "public/media/brand/logo.png",
+      "source": "img/Logo_1.png",
+      "resolution": "270 x 89",
+      "bytes": 7654
+    },
+    {
+      "file": "public/media/laser/hero.webp",
+      "source": "img/hero-laser-cut.jpg",
+      "resolution": "1920 x 760",
+      "bytes": 100270
+    },
+    {
+      "file": "public/media/bending/hero.webp",
+      "source": "public/media/originals/20211216_170457_2x_2x.jpg",
+      "resolution": "1350 x 1350",
+      "bytes": 124260
+    },
+    {
+      "file": "public/media/welding/hero.webp",
+      "source": "img/hero-welding.jpg",
+      "resolution": "1920 x 760",
+      "bytes": 84226
+    },
+    {
+      "file": "public/media/fabrication/hero.webp",
+      "source": "public/media/originals/20211215_154437_2x_2x.jpg",
+      "resolution": "1350 x 1350",
+      "bytes": 95520
+    },
+    {
+      "file": "public/media/laser/equipment.webp",
+      "source": "public/media/originals/20211208_153339_2x.jpg",
+      "resolution": "1000 x 750",
+      "bytes": 37652
+    },
+    {
+      "file": "public/media/bending/equipment.webp",
+      "source": "public/media/originals/20211216_170457_2x.jpg",
+      "resolution": "1000 x 750",
+      "bytes": 58264
+    },
+    {
+      "file": "public/media/fabrication/about.webp",
+      "source": "public/media/originals/20211215_154416_2x_2x.jpg",
+      "resolution": "1200 x 1200",
+      "bytes": 113124
+    },
+    {
+      "file": "public/media/products/product-0.webp",
+      "source": "public/media/products/product-0.png",
+      "resolution": "1000 x 750",
+      "bytes": 64806
+    },
+    {
+      "file": "public/media/products/product-1.webp",
+      "source": "public/media/products/product-1.png",
+      "resolution": "1000 x 750",
+      "bytes": 55286
+    },
+    {
+      "file": "public/media/products/product-2.webp",
+      "source": "public/media/products/product-2.png",
+      "resolution": "1000 x 750",
+      "bytes": 76250
+    },
+    {
+      "file": "public/media/products/product-3.webp",
+      "source": "public/media/products/product-3.png",
+      "resolution": "1000 x 750",
+      "bytes": 107336
+    },
+    {
+      "file": "public/media/products/product-4.webp",
+      "source": "public/media/products/product-4.png",
+      "resolution": "1000 x 750",
+      "bytes": 82972
+    },
+    {
+      "file": "public/media/products/product-5.webp",
+      "source": "public/media/products/product-5.png",
+      "resolution": "1000 x 750",
+      "bytes": 64634
+    },
+    {
+      "file": "public/media/products/product-6.webp",
+      "source": "public/media/products/product-6.png",
+      "resolution": "1000 x 750",
+      "bytes": 51056
+    },
+    {
+      "file": "public/media/products/product-7.webp",
+      "source": "public/media/products/product-7.png",
+      "resolution": "1000 x 750",
+      "bytes": 72898
+    }
+  ],
+  "products": [
+    {
+      "file": "public/media/products/product-0.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2320103,
+      "origin": "Built-in Imagegen",
+      "illustrative": true,
+      "prompt": "Use case: product-mockup. Generate one photorealistic industrial catalog photograph: stainless steel open-top rectangular mobile bin with four industrial swivel casters. Technically plausible fabrication, brushed stainless steel, clean dark gray industrial studio floor and background, soft directional light, three-quarter view, entire product visible centered with generous margin. No people, logos, branding, writing or text. Landscape 4:3. Illustrative concept, not a real company project."
+    },
+    {
+      "file": "public/media/products/product-1.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2203101,
+      "origin": "Built-in Imagegen",
+      "illustrative": true,
+      "prompt": "Use case: product-mockup. Generate one photorealistic industrial catalog photograph: stainless steel food production container, deep rectangular smooth hygienic tub on legs. Technically plausible fabrication, brushed stainless steel, clean dark gray industrial studio floor and background, soft directional light, three-quarter view, entire product visible centered with generous margin. No people, logos, branding, writing or text. Landscape 4:3. Illustrative concept, not a real company project."
+    },
+    {
+      "file": "public/media/products/product-2.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2320392,
+      "origin": "Built-in Imagegen",
+      "illustrative": true,
+      "prompt": "Use case: product-mockup. Generate one photorealistic industrial catalog photograph: stainless steel industrial access platform with four stairs and safety railings. Technically plausible fabrication, brushed stainless steel, clean dark gray industrial studio floor and background, soft directional light, three-quarter view, entire product visible centered with generous margin. No people, logos, branding, writing or text. Landscape 4:3. Illustrative concept, not a real company project."
+    },
+    {
+      "file": "public/media/products/product-3.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2644548,
+      "origin": "Built-in Imagegen",
+      "illustrative": true,
+      "prompt": "Use case: product-mockup. Generate one photorealistic industrial catalog photograph: stainless steel loading ramp with textured non-slip deck and raised edges. Technically plausible fabrication, brushed stainless steel, clean dark gray industrial studio floor and background, soft directional light, three-quarter view, entire product visible centered with generous margin. No people, logos, branding, writing or text. Landscape 4:3. Illustrative concept, not a real company project."
+    },
+    {
+      "file": "public/media/products/product-4.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2441932,
+      "origin": "Built-in Imagegen",
+      "illustrative": true,
+      "prompt": "Use case: product-mockup. Generate one photorealistic industrial catalog photograph: freestanding stainless steel charcoal barbecue grill with simple rectangular firebox and grate. Technically plausible fabrication, brushed stainless steel, clean dark gray industrial studio floor and background, soft directional light, three-quarter view, entire product visible centered with generous margin. No people, logos, branding, writing or text. Landscape 4:3. Illustrative concept, not a real company project."
+    },
+    {
+      "file": "public/media/products/product-5.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2289564,
+      "origin": "Built-in Imagegen",
+      "illustrative": true,
+      "prompt": "Use case: product-mockup. Generate one photorealistic industrial catalog photograph: stainless steel worktable with four square legs and lower shelf. Technically plausible fabrication, brushed stainless steel, clean dark gray industrial studio floor and background, soft directional light, three-quarter view, entire product visible centered with generous margin. No people, logos, branding, writing or text. Landscape 4:3. Illustrative concept, not a real company project."
+    },
+    {
+      "file": "public/media/products/product-6.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2106037,
+      "origin": "Built-in Imagegen",
+      "illustrative": true,
+      "prompt": "Use case: product-mockup. Generate one photorealistic industrial catalog photograph: stainless steel industrial conical hopper on a square frame. Technically plausible fabrication, brushed stainless steel, clean dark gray industrial studio floor and background, soft directional light, three-quarter view, entire product visible centered with generous margin. No people, logos, branding, writing or text. Landscape 4:3. Illustrative concept, not a real company project."
+    },
+    {
+      "file": "public/media/products/product-7.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2283830,
+      "origin": "Built-in Imagegen",
+      "illustrative": true,
+      "prompt": "Use case: product-mockup. Generate one photorealistic industrial catalog photograph: mobile stainless steel equipment frame with four casters and open rectangular mounting structure. Technically plausible fabrication, brushed stainless steel, clean dark gray industrial studio floor and background, soft directional light, three-quarter view, entire product visible centered with generous margin. No people, logos, branding, writing or text. Landscape 4:3. Illustrative concept, not a real company project."
+    }
+  ],
+  "fonts": [
+    {
+      "file": "xn7gYHE41ni1AdIRggexSg.woff2",
+      "url": "https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggexSg.woff2",
+      "bytes": 24532
+    },
+    {
+      "file": "xn7gYHE41ni1AdIRggixSuXd.woff2",
+      "url": "https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggixSuXd.woff2",
+      "bytes": 8388
+    },
+    {
+      "file": "xn7gYHE41ni1AdIRggmxSuXd.woff2",
+      "url": "https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggmxSuXd.woff2",
+      "bytes": 15160
+    },
+    {
+      "file": "xn7gYHE41ni1AdIRggOxSuXd.woff2",
+      "url": "https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggOxSuXd.woff2",
+      "bytes": 14352
+    },
+    {
+      "file": "xn7gYHE41ni1AdIRggqxSuXd.woff2",
+      "url": "https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggqxSuXd.woff2",
+      "bytes": 2588
+    },
+    {
+      "file": "xn7gYHE41ni1AdIRggSxSuXd.woff2",
+      "url": "https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggSxSuXd.woff2",
+      "bytes": 9268
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-31T17:31:42.082Z",
+  "title": "Design System: BCS Steel",
+  "extensions": {
+    "colorMeta": {
+      "accent": {
+        "role": "primary",
+        "displayName": "accent",
+        "tonalRamp": [
+          "oklch(15% 0.15 48)",
+          "oklch(26% 0.15 48)",
+          "oklch(38% 0.15 48)",
+          "oklch(49% 0.15 48)",
+          "oklch(61% 0.15 48)",
+          "oklch(72% 0.15 48)",
+          "oklch(84% 0.15 48)",
+          "oklch(95% 0.15 48)"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "accent hover",
+        "tonalRamp": [
+          "oklch(15% 0.15 48)",
+          "oklch(26% 0.15 48)",
+          "oklch(38% 0.15 48)",
+          "oklch(49% 0.15 48)",
+          "oklch(61% 0.15 48)",
+          "oklch(72% 0.15 48)",
+          "oklch(84% 0.15 48)",
+          "oklch(95% 0.15 48)"
+        ]
+      },
+      "accent-ink-light": {
+        "role": "primary",
+        "displayName": "accent ink light",
+        "tonalRamp": [
+          "oklch(15% 0.15 48)",
+          "oklch(26% 0.15 48)",
+          "oklch(38% 0.15 48)",
+          "oklch(49% 0.15 48)",
+          "oklch(61% 0.15 48)",
+          "oklch(72% 0.15 48)",
+          "oklch(84% 0.15 48)",
+          "oklch(95% 0.15 48)"
+        ]
+      },
+      "bg": {
+        "role": "neutral",
+        "displayName": "bg",
+        "tonalRamp": [
+          "oklch(15% 0.012 250)",
+          "oklch(26% 0.012 250)",
+          "oklch(38% 0.012 250)",
+          "oklch(49% 0.012 250)",
+          "oklch(61% 0.012 250)",
+          "oklch(72% 0.012 250)",
+          "oklch(84% 0.012 250)",
+          "oklch(95% 0.012 250)"
+        ]
+      },
+      "secondary": {
+        "role": "neutral",
+        "displayName": "secondary",
+        "tonalRamp": [
+          "oklch(15% 0.012 250)",
+          "oklch(26% 0.012 250)",
+          "oklch(38% 0.012 250)",
+          "oklch(49% 0.012 250)",
+          "oklch(61% 0.012 250)",
+          "oklch(72% 0.012 250)",
+          "oklch(84% 0.012 250)",
+          "oklch(95% 0.012 250)"
+        ]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "card",
+        "tonalRamp": [
+          "oklch(15% 0.012 250)",
+          "oklch(26% 0.012 250)",
+          "oklch(38% 0.012 250)",
+          "oklch(49% 0.012 250)",
+          "oklch(61% 0.012 250)",
+          "oklch(72% 0.012 250)",
+          "oklch(84% 0.012 250)",
+          "oklch(95% 0.012 250)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "text",
+        "tonalRamp": [
+          "oklch(15% 0 250)",
+          "oklch(26% 0 250)",
+          "oklch(38% 0 250)",
+          "oklch(49% 0 250)",
+          "oklch(61% 0 250)",
+          "oklch(72% 0 250)",
+          "oklch(84% 0 250)",
+          "oklch(95% 0 250)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "muted",
+        "tonalRamp": [
+          "oklch(15% 0.012 250)",
+          "oklch(26% 0.012 250)",
+          "oklch(38% 0.012 250)",
+          "oklch(49% 0.012 250)",
+          "oklch(61% 0.012 250)",
+          "oklch(72% 0.012 250)",
+          "oklch(84% 0.012 250)",
+          "oklch(95% 0.012 250)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "border",
+        "tonalRamp": [
+          "oklch(15% 0.012 250)",
+          "oklch(26% 0.012 250)",
+          "oklch(38% 0.012 250)",
+          "oklch(49% 0.012 250)",
+          "oklch(61% 0.012 250)",
+          "oklch(72% 0.012 250)",
+          "oklch(84% 0.012 250)",
+          "oklch(95% 0.012 250)"
+        ]
+      },
+      "bg-light": {
+        "role": "neutral",
+        "displayName": "bg light",
+        "tonalRamp": [
+          "oklch(15% 0.012 250)",
+          "oklch(26% 0.012 250)",
+          "oklch(38% 0.012 250)",
+          "oklch(49% 0.012 250)",
+          "oklch(61% 0.012 250)",
+          "oklch(72% 0.012 250)",
+          "oklch(84% 0.012 250)",
+          "oklch(95% 0.012 250)"
+        ]
+      },
+      "secondary-light": {
+        "role": "neutral",
+        "displayName": "secondary light",
+        "tonalRamp": [
+          "oklch(15% 0.012 250)",
+          "oklch(26% 0.012 250)",
+          "oklch(38% 0.012 250)",
+          "oklch(49% 0.012 250)",
+          "oklch(61% 0.012 250)",
+          "oklch(72% 0.012 250)",
+          "oklch(84% 0.012 250)",
+          "oklch(95% 0.012 250)"
+        ]
+      },
+      "card-light": {
+        "role": "neutral",
+        "displayName": "card light",
+        "tonalRamp": [
+          "oklch(15% 0 250)",
+          "oklch(26% 0 250)",
+          "oklch(38% 0 250)",
+          "oklch(49% 0 250)",
+          "oklch(61% 0 250)",
+          "oklch(72% 0 250)",
+          "oklch(84% 0 250)",
+          "oklch(95% 0 250)"
+        ]
+      },
+      "text-light": {
+        "role": "neutral",
+        "displayName": "text light",
+        "tonalRamp": [
+          "oklch(15% 0.012 250)",
+          "oklch(26% 0.012 250)",
+          "oklch(38% 0.012 250)",
+          "oklch(49% 0.012 250)",
+          "oklch(61% 0.012 250)",
+          "oklch(72% 0.012 250)",
+          "oklch(84% 0.012 250)",
+          "oklch(95% 0.012 250)"
+        ]
+      },
+      "muted-light": {
+        "role": "neutral",
+        "displayName": "muted light",
+        "tonalRamp": [
+          "oklch(15% 0.012 250)",
+          "oklch(26% 0.012 250)",
+          "oklch(38% 0.012 250)",
+          "oklch(49% 0.012 250)",
+          "oklch(61% 0.012 250)",
+          "oklch(72% 0.012 250)",
+          "oklch(84% 0.012 250)",
+          "oklch(95% 0.012 250)"
+        ]
+      },
+      "border-light": {
+        "role": "neutral",
+        "displayName": "border light",
+        "tonalRamp": [
+          "oklch(15% 0.012 250)",
+          "oklch(26% 0.012 250)",
+          "oklch(38% 0.012 250)",
+          "oklch(49% 0.012 250)",
+          "oklch(61% 0.012 250)",
+          "oklch(72% 0.012 250)",
+          "oklch(84% 0.012 250)",
+          "oklch(95% 0.012 250)"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "error",
+        "tonalRamp": [
+          "oklch(15% 0.1 35)",
+          "oklch(26% 0.1 35)",
+          "oklch(38% 0.1 35)",
+          "oklch(49% 0.1 35)",
+          "oklch(61% 0.1 35)",
+          "oklch(72% 0.1 35)",
+          "oklch(84% 0.1 35)",
+          "oklch(95% 0.1 35)"
+        ]
+      },
+      "error-light": {
+        "role": "neutral",
+        "displayName": "error light",
+        "tonalRamp": [
+          "oklch(15% 0.1 35)",
+          "oklch(26% 0.1 35)",
+          "oklch(38% 0.1 35)",
+          "oklch(49% 0.1 35)",
+          "oklch(61% 0.1 35)",
+          "oklch(72% 0.1 35)",
+          "oklch(84% 0.1 35)",
+          "oklch(95% 0.1 35)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Manufacturing Display",
+        "purpose": "Hero statement over shaded imagery."
+      },
+      "headline": {
+        "displayName": "Section Headline",
+        "purpose": "Wide section hierarchy."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "hero-crossfade",
+        "value": "opacity 1.2s ease",
+        "purpose": "Slide image transition."
+      },
+      {
+        "name": "hero-progress",
+        "value": "8s linear",
+        "purpose": "Active slide timing."
+      },
+      {
+        "name": "hero-settle",
+        "value": "10s ease-out",
+        "purpose": "Image scale from 1.06 to 1."
+      },
+      {
+        "name": "entrance",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Text and section entrances."
+      },
+      {
+        "name": "control",
+        "value": "0.2s",
+        "purpose": "Button fill and lift."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation:none;transition:none;scroll-behavior:auto",
+        "purpose": "System preference removes motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1600px"
+      },
+      {
+        "name": "desktop-max",
+        "value": "1200px"
+      },
+      {
+        "name": "tablet-max",
+        "value": "1000px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "700px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Quotation and email draft action.",
+      "html": "<button class=\"ds-primary\">Request a quotation<svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M4 12h15M13 5l7 7-7 7\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg></button>",
+      "css": ".ds-primary{font-family:Manrope,Arial,sans-serif;display:inline-flex;align-items:center;justify-content:space-between;gap:28px;min-height:56px;padding:17px 24px;border:0;border-radius:0;background:var(--accent,#ff7900);color:#121416;font-size:12px;font-weight:750;transition:background .2s,transform .2s;cursor:pointer}.ds-primary:hover{background:#ff9638;transform:translateY(-2px)}.ds-primary:focus-visible{outline:2px solid var(--accent-ink,#ff7900);outline-offset:5px}"
+    },
+    {
+      "name": "Text Link",
+      "kind": "button",
+      "description": "Unboxed supporting action.",
+      "html": "<a class=\"ds-link\" href=\"#services\">Explore services<svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M4 12h15M13 5l7 7-7 7\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg></a>",
+      "css": ".ds-link{font-family:Manrope,Arial,sans-serif;display:inline-flex;align-items:center;gap:24px;color:var(--text,#fff);font-size:12px;font-weight:700;line-height:1.5;text-decoration:none}.ds-link svg{width:20px;transition:transform .25s}.ds-link:hover svg{transform:translateX(4px)}.ds-link:focus-visible{outline:2px solid var(--accent-ink,#ff7900);outline-offset:5px}"
+    },
+    {
+      "name": "Icon Button",
+      "kind": "button",
+      "refersTo": "button-icon",
+      "description": "Carousel direction control.",
+      "html": "<button class=\"ds-icon\" aria-label=\"Next\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M4 12h15M13 5l7 7-7 7\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg></button>",
+      "css": ".ds-icon{font-family:Manrope,Arial,sans-serif;display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border:1px solid var(--border,#303a45);background:transparent;color:var(--text,#fff);cursor:pointer;transition:background .2s,border-color .2s}.ds-icon:hover{border-color:var(--accent,#ff7900);background:#ff79000d}.ds-icon:focus-visible{outline:2px solid var(--accent-ink,#ff7900);outline-offset:5px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Contact input.",
+      "html": "<label class=\"ds-field\">Email<input type=\"email\" autocomplete=\"email\"></label>",
+      "css": ".ds-field{font-family:Manrope,Arial,sans-serif;display:flex;flex-direction:column;gap:9px;font-size:11px;font-weight:600;color:var(--text,#fff)}.ds-field input{font-family:Manrope,Arial,sans-serif;border:1px solid var(--border,#303a45);padding:13px 14px;background:var(--bg,#0b0f14);color:var(--text,#fff);border-radius:0;font-size:13px;caret-color:var(--accent,#ff7900)}.ds-field input:focus-visible{outline:2px solid var(--accent-ink,#ff7900);outline-offset:5px}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "Compact navigation with active underline.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main\"><a href=\"#services\" aria-current=\"page\">Services</a><a href=\"#contacts\">Contacts</a></nav>",
+      "css": ".ds-nav{display:flex;gap:25px}.ds-nav a{font-family:Manrope,Arial,sans-serif;position:relative;padding:30px 0;color:var(--text,#fff);font-size:12px;font-weight:600;text-decoration:none}.ds-nav a:hover,.ds-nav a[aria-current]{color:var(--accent-ink,#ff7900)}.ds-nav a[aria-current]:after{content:\"\";position:absolute;bottom:19px;left:0;right:0;height:2px;background:var(--accent,#ff7900)}.ds-nav a:focus-visible{outline:2px solid var(--accent-ink,#ff7900);outline-offset:5px}"
+    },
+    {
+      "name": "Product Card",
+      "kind": "card",
+      "refersTo": "product-card",
+      "description": "Tonal product body; image/disclosure remains on the page.",
+      "html": "<article class=\"ds-card\"><h3>Stainless steel fabrication</h3><p>Custom manufacturing for your project.</p><a href=\"#contacts\">Discuss your project<svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M4 12h15M13 5l7 7-7 7\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg></a></article>",
+      "css": ".ds-card{font-family:Manrope,Arial,sans-serif;padding:26px;background:var(--card,#1c242d);color:var(--text,#fff);max-width:390px}.ds-card h3{font-size:20px;font-weight:650;letter-spacing:-.025em;line-height:1.4;margin:0 0 14px}.ds-card p{font-size:12px;line-height:1.85;color:var(--muted,#a8b3bf)}.ds-card a{display:inline-flex;align-items:center;gap:24px;margin-top:25px;color:inherit;font-size:11px;font-weight:700;text-decoration:none}.ds-card a svg{transition:transform .25s}.ds-card a:hover svg{transform:translateX(4px)}.ds-card a:focus-visible{outline:2px solid var(--accent-ink,#ff7900);outline-offset:5px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Precision Workshop",
+    "overview": "Manufacturing photography carries the atmosphere: steel, machinery, scale and controlled light. Manrope supplies a calm, precise voice over charcoal surfaces, with generous section spacing and a clear hierarchy of large headings and compact supporting detail.\n\nDark is the default; the light theme preserves the same geometry with warm pale backgrounds and dark text. The original company logo remains intact. LV, RU and EN share the visual system and must retain legibility as copy length changes.",
+    "keyCharacteristics": [
+      "Dominant industrial photography with cinematic shading.",
+      "Large restrained type and wide section hierarchy.",
+      "Square geometry, flat tonal layers and sparse orange signals.",
+      "One system across dark/light themes and LV/RU/EN."
+    ],
+    "rules": [
+      {
+        "name": "The Signal Rule",
+        "body": "Reserve orange for primary actions, active navigation, progress, small process markers and focus. Let imagery and neutral surfaces occupy the broad areas.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tonal Depth Rule",
+        "body": "Use surface changes, image shading and fine dividers for hierarchy; do not add decorative card shadows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do preserve the original logo and locally hosted Manrope across Latin and Cyrillic content.",
+      "Do keep photography dominant and legible shading behind hero copy.",
+      "Do use theme-aware accent ink for small orange text and focus on light surfaces.",
+      "Do preserve keyboard focus, reduced motion and readable multilingual wrapping.",
+      "Do describe the contact action as an email draft and preserve illustration disclosures."
+    ],
+    "donts": [
+      "Don't turn orange into a broad section background.",
+      "Don't add pill controls, soft card shadows or a competing display font.",
+      "Don't remove pause/manual carousel controls or make essential content depend on animation.",
+      "Don't present illustrative imagery or email drafts as verified production output or delivered inquiries."
+    ]
+  }
+}
