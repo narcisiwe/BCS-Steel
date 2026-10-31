@@ -43,7 +43,7 @@ Six new gallery thumbnail files (`work-0.webp` through `work-5.webp`) derive fro
 | Actual automatic hero cycles | Passed: DOM observer recorded `0,1,2,3,0,1,2,3,0`; approximately eight seconds per transition with actual localized heading changes and progress near zero after each change |
 | Pause/play | Passed: slide and progress stayed identical through nine seconds paused; Play advanced the actual content after resuming |
 | Manual hero controls | All four indicators, previous and next passed during six repeated locale changes |
-| Language switching | RU → EN → LV → EN → RU → LV passed with localized gallery, form, metadata and accessibility content; existing controls remained functional |
+| Language switching | RU → EN → LV → EN → RU → LV passed with localized gallery, form, metadata and accessibility content; existing controls remained functional; RU was restored from localStorage on a fresh root-page visit |
 | Galleries/lightboxes | Both tracks' navigation, End/Home keys, image open, next/previous, arrow keys and Escape passed across repeated locale changes |
 | Validation | Missing required fields, malformed email, malformed phone and valid international formatting checked in the browser in all three languages |
 | Attachments | Browser rejected a non-engineering file; accepted a PDF and preserved its selection through a language change; unit tests cover types, empty files and 10 MiB boundaries |
