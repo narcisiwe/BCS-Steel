@@ -403,3 +403,6 @@ FodyWeavers.xsd
 dist/
 .impeccable/review/
 playwright-results/
+
+work/
+outputs/

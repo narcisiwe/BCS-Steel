@@ -1,3 +1,5 @@
+> Historical report from the initial redesign. See UPDATE_REPORT.md for the current fixes, tests and behavior.
+
 # BCS Steel redesign delivery
 
 Date: 31 October 2026. Working branch: `feature/bcs-steel-redesign`.

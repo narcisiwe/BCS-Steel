@@ -51,7 +51,7 @@ Inspected https://bcslasercut.eu/ (EN), /LV/, /RU/ and /DE/ on 2026-10-31. Downl
 | `public/media/products/product-6.webp` | `public/media/products/product-6.png` | 1000 x 750 | 51056 | WEBP | products |
 | `public/media/products/product-7.webp` | `public/media/products/product-7.png` | 1000 x 750 | 72898 | WEBP | products |
 
-Repository originals are from https://github.com/narcisiwe/BCS-Steel/tree/860de957bc2a6b333a8fe1c2dbc62c49f2b07892/img . Their external provenance was not supplied; retained under the requested company redesign, not independently licensed as stock. `Logo_1.png` is the original company identity asset. The laser and welding hero photographs are pre-existing repository assets; fabrication and bending use original company website details. The PLATINO equipment image is the production-detail photograph paired with that equipment on the old site; it is not a complete machine portrait. Welding imagery is representative repository imagery rather than a verified photograph of a particular machine.
+Repository originals are from https://github.com/narcisiwe/BCS-Steel/tree/860de957bc2a6b333a8fe1c2dbc62c49f2b07892/img . Their external provenance was not supplied; retained under the requested company redesign, not independently licensed as stock. `Logo_1.png` is the original company identity asset. The laser and welding hero photographs are pre-existing repository assets; fabrication and bending use original company website details. The laser equipment production-detail image is the production-detail photograph paired with that equipment on the old site; it is not a complete machine portrait. Welding imagery is representative repository imagery rather than a verified photograph of a particular machine.
 
 ## Product concepts
 
@@ -72,3 +72,7 @@ Repository originals are from https://github.com/narcisiwe/BCS-Steel/tree/860de9
 ## Fonts
 
 Manrope variable WOFF2 files are self-hosted in `public/media/brand/`, sourced from the URLs in `MEDIA_PROVENANCE.json`; SIL Open Font License retained in `public/media/brand/OFL.txt`.
+
+## About galleries added in the fixes update
+
+See `GALLERY_IMAGES.md` for all six company photo URLs and eight reused illustrative image sources, dimensions, sizes, thumbnails and deferred full-resolution paths.

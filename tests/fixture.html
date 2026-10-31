@@ -1,0 +1,17 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>BCS Steel browser QA fixture</title><style>html,body{margin:0;height:100%;background:#0b0f14}iframe{display:block;width:100%;height:100%;border:0}.evidence{position:fixed;left:-10000px;top:0;width:500px}</style></head><body>
+<iframe title="BCS Steel website under test" src="/?lang=lv"></iframe>
+<div class="evidence"><pre id="cycles">[]</pre><pre id="draft-uri"></pre><pre id="errors">[]</pre></div>
+<script>
+// Test-only observer: records real DOM changes at the unmodified production duration.
+// Drafts are intercepted after validation, before invoking an external email client.
+const frame=document.querySelector('iframe'),changes=[],errors=[];
+frame.addEventListener('load',()=>{
+ const win=frame.contentWindow,doc=frame.contentDocument;
+ if(!doc?.querySelector('.hero'))return; // Ignore transient blank-frame loads during navigation.
+ win.addEventListener('error',event=>{errors.push(event.message);document.querySelector('#errors').textContent=JSON.stringify(errors);});
+ win.addEventListener('bcs:email-draft',event=>{event.preventDefault();document.querySelector('#draft-uri').textContent=event.detail.uri;});
+ const hero=doc.querySelector('.hero');let last;
+ function record(){const slide=Number(hero.dataset.active);if(slide===last||!Number.isFinite(slide))return;last=slide;changes.push({slide,heading:doc.querySelector('h1').innerText,at:Date.now(),progress:Number(hero.style.getPropertyValue('--slide-progress'))});document.querySelector('#cycles').textContent=JSON.stringify(changes);}
+ const observer=new MutationObserver(record);observer.observe(hero,{attributes:true,attributeFilter:['data-active']});record();
+});
+</script></body></html>

@@ -366,5 +366,133 @@
       "url": "https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggSxSuXd.woff2",
       "bytes": 9268
     }
+  ],
+  "aboutGalleries": [
+    {
+      "thumbnail": "public/media/gallery/work-0.webp",
+      "full": "public/media/gallery/full/20211208_153339_2x_2x.jpg",
+      "source": "https://cdn-ru.bitrix24.ru/b136245/landing/182/18203ad26a0a5d3e8472a8b896d00128/20211208_153339_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 122568,
+      "illustrative": false
+    },
+    {
+      "thumbnail": "public/media/gallery/work-1.webp",
+      "full": "public/media/gallery/full/20211209_133109_2x_2x.jpg",
+      "source": "https://cdn-ru.bitrix24.ru/b136245/landing/aaa/aaae11679a3fe909eaf6fba59e975fa9/20211209_133109_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 116521,
+      "illustrative": false
+    },
+    {
+      "thumbnail": "public/media/gallery/work-2.webp",
+      "full": "public/media/gallery/full/20211215_154437_2x_2x.jpg",
+      "source": "https://cdn-ru.bitrix24.ru/b136245/landing/149/149c9ae3724dc14ed64cb3e1afe3670e/20211215_154437_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 145943,
+      "illustrative": false
+    },
+    {
+      "thumbnail": "public/media/gallery/work-3.webp",
+      "full": "public/media/gallery/full/20211208_153241_2x_2x.jpg",
+      "source": "https://cdn-ru.bitrix24.ru/b136245/landing/d4c/d4cafc05663c14ec419b3a4c21bd7bb0/20211208_153241_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 163605,
+      "illustrative": false
+    },
+    {
+      "thumbnail": "public/media/gallery/work-4.webp",
+      "full": "public/media/gallery/full/20211215_154416_2x_2x.jpg",
+      "source": "https://cdn-ru.bitrix24.ru/b136245/landing/2c5/2c5ddddcc4681abb0c2bf46fd2c98bdd/20211215_154416_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 208535,
+      "illustrative": false
+    },
+    {
+      "thumbnail": "public/media/gallery/work-5.webp",
+      "full": "public/media/gallery/full/20211208_153220_2x_2x.jpg",
+      "source": "https://cdn-ru.bitrix24.ru/b136245/landing/119/11909caa3cd38c95bbb5b7a4e65ec3d2/20211208_153220_2x_2x.jpg",
+      "width": 1350,
+      "height": 1350,
+      "bytes": 188043,
+      "illustrative": false
+    },
+    {
+      "thumbnail": "public/media/products/product-0.webp",
+      "full": "public/media/gallery/full/product-0.webp",
+      "source": "public/media/products/product-0.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 287224,
+      "illustrative": true
+    },
+    {
+      "thumbnail": "public/media/products/product-1.webp",
+      "full": "public/media/gallery/full/product-1.webp",
+      "source": "public/media/products/product-1.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 242214,
+      "illustrative": true
+    },
+    {
+      "thumbnail": "public/media/products/product-2.webp",
+      "full": "public/media/gallery/full/product-2.webp",
+      "source": "public/media/products/product-2.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 294722,
+      "illustrative": true
+    },
+    {
+      "thumbnail": "public/media/products/product-3.webp",
+      "full": "public/media/gallery/full/product-3.webp",
+      "source": "public/media/products/product-3.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 376522,
+      "illustrative": true
+    },
+    {
+      "thumbnail": "public/media/products/product-4.webp",
+      "full": "public/media/gallery/full/product-4.webp",
+      "source": "public/media/products/product-4.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 325816,
+      "illustrative": true
+    },
+    {
+      "thumbnail": "public/media/products/product-5.webp",
+      "full": "public/media/gallery/full/product-5.webp",
+      "source": "public/media/products/product-5.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 274642,
+      "illustrative": true
+    },
+    {
+      "thumbnail": "public/media/products/product-6.webp",
+      "full": "public/media/gallery/full/product-6.webp",
+      "source": "public/media/products/product-6.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 224728,
+      "illustrative": true
+    },
+    {
+      "thumbnail": "public/media/products/product-7.webp",
+      "full": "public/media/gallery/full/product-7.webp",
+      "source": "public/media/products/product-7.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 275340,
+      "illustrative": true
+    }
   ]
 }

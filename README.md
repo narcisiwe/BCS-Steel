@@ -1,63 +1,63 @@
 # BCS Steel
 
-Premium industrial redesign of the existing dependency-free static website. Latvian is the default, with Russian and English static pages. No production deployment was made.
+Existing industrial website, updated without changing its visual identity. Dark-only, dependency-free HTML/CSS/JavaScript. Latvian is the default; Russian and English are centralized in `js/content.js`.
 
-## Preview
+## Preview and build
 
-Requires Node.js 20 or newer. There are no project dependencies to install.
+From this directory, with Node.js 20+:
 
 ```sh
 node scripts/build.mjs
 node scripts/serve.mjs
 ```
 
-Open http://127.0.0.1:4173/ . Russian: `/ru/`; English: `/en/`. Stop with Ctrl+C. Run commands from this repository directory. The build writes `dist/` and regenerates root `index.html`, `ru/index.html`, `en/index.html`, `robots.txt` and `sitemap.xml`. Generated root pages also work when the repository is served over HTTP. Avoid opening ES modules through `file://`.
+Open http://127.0.0.1:4173/ . No dependency installation is needed. Stop with Ctrl+C. `dist/` contains the production static files. The build also regenerates root, `ru/` and `en/` HTML pages for static-root hosting. Use HTTP, not `file://`, for JavaScript modules.
 
-## Editing
+## Update behavior
 
-- `js/content.js`: centralized translations, product categories, descriptions, form messages and SEO copy.
-- `scripts/template.mjs`: semantic HTML shared by all language pages.
-- `css/styles.css`, `css/fonts.css`: responsive styling and self-hosted Manrope fonts.
-- `js/script.js`: theme, navigation, hero, carousel and form behavior.
-- `js/media.js`: four poster/video configurations.
-- `js/validation.js`: engineering drawing validation.
-- `public/media/`: optimized assets, original downloaded photographs and generated product originals.
-- `MEDIA_INVENTORY.md`, `MEDIA_PROVENANCE.json`: sources, dimensions, sizes and generation prompts.
-- `AGENTS.md`, `PRODUCT.md`, `DESIGN.md`: development, product and design guidance.
+- The hero uses one animation-frame clock for both eight-second transitions and progress. Manual changes reset progress; Pause preserves elapsed time. Pointer hover and retained control focus no longer block Play. Hidden pages, an offscreen hero, open lightboxes and reduced motion suspend automatic changes. Inactive videos pause.
+- Language controls render all content in place, update `html.lang` and localized metadata, use query URLs that work under nested hosting paths, and persist the choice when storage is available. Current slide, form values, attachment selection and carousel positions survive switching. Static locale URLs also remain available for indexing.
+- Two About galleries use real company work photographs and explicitly labeled existing product illustrations. Full-resolution lightbox sources are requested on click; Escape/arrow keys, focus return and touch/native horizontal scrolling are supported. See `GALLERY_IMAGES.md` for every source.
+- HSG G3015X replaces the previous laser machine. Its unverified technical specifications are omitted. The existing image shows production details, not an asserted photograph of that machine. Other verified equipment information remains.
+- Name, email, phone, description, service and consent are required; company and drawing are optional. Phone validation accepts international formatting and 7–15 digits, excluding an initial international `00` access prefix. Files remain limited to nonempty PDF/DXF/DWG/STEP/STP files up to 10 MiB.
 
-The complete optimized production directory is approximately 1.4 MB. Original gallery JPEGs and generated PNGs remain in the source repository and are excluded from `dist/`.
+## Inquiry delivery and video limitations
 
-## Hero footage configuration
+The existing project has no backend. A valid inquiry prepares a `mailto:` draft to `bcslasercut@gmail.com`. The visitor must attach their drawing in their mail app and send it. The page explains this; it never claims server upload or successful receipt. No data is stored by the website. Direct delivery would require a separately configured, secure backend with server-side validation and receipt tests.
 
-The four-slide hero currently displays image fallbacks. Company pages exposed one YouTube embed, not downloadable videos for each service. No direct MP4/WebM footage was obtained. This is a known unmet media requirement, not a completed four-video deliverable.
+The imported redesign contains poster images and a video-capable engine, but no actual direct video clips (`js/media.js` has null video values). This update preserves that configuration and all existing media. To enable real footage, supply licensed optimized local clips, set the corresponding `video` paths and rebuild. Muted inline playback, lazy source assignment, inactive-video pausing and poster fallback remain. Actual video playback cannot be verified until footage exists.
 
-Put licensed, optimized clips under `public/media/laser/`, `bending/`, `welding/`, `fabrication/` and set each `video` in `js/media.js` to its local path, e.g. `media/bending/process.mp4`. Rebuild. Only the active video receives a source and plays; inactive clips pause. Reduced-motion, slow-connection/save-data users and autoplay errors retain posters. Videos are muted, looping, inline and `preload="none"`. The slideshow pauses on hover, focus, page hiding and leaving the viewport. Verify actual footage/autoplay on desktop and mobile after adding clips.
+## Source
 
-## Inquiry flow
-
-The original project had only a `mailto:` form and no backend. The redesigned form validates required fields, email, consent and an optional engineering file (PDF/DXF/DWG/STEP/STP, nonempty, maximum 10 MiB). It opens an email draft addressed to the company website's verified email, `bcslasercut@gmail.com`. The visitor must attach the drawing in their email app and send it. Files and form details are never uploaded or stored by this site. The page discloses this before submission.
-
-For direct website submissions, configure a backend with delivery credentials, server-side size/extension/content checks, secure attachment storage or forwarding, malware handling and abuse protection. Add an appropriate reviewed privacy notice and retention policy. Test actual receipt before claiming delivery. Never put mail credentials in client JavaScript.
+- `js/content.js`: all LV/RU/EN copy and validation/accessibility labels.
+- `js/render.js`: shared static/client renderer; `scripts/template.mjs` re-exports it for builds.
+- `js/script.js`: runtime lifecycle, navigation, localization, galleries, lightbox and form.
+- `js/slideshow-clock.js`: single slideshow timeline.
+- `js/validation.js`: phone/file validation and email-draft construction.
+- `css/styles.css`, `css/fonts.css`: retained industrial styling and self-hosted Manrope.
+- `public/media/gallery/`: six work thumbnails and deferred full-resolution gallery files.
+- `GALLERY_IMAGES.md`, `MEDIA_INVENTORY.md`, `MEDIA_PROVENANCE.json`: sources and illustrative-image provenance.
 
 ## Tests
 
 ```sh
 node --check js/script.js
-node --check js/content.js
+node --check js/render.js
 node --check scripts/build.mjs
-node --test tests/site.test.mjs
+node --test tests/*.test.mjs
 ```
 
-The five Node tests cover locale completeness, semantic/SEO output, resource existence, removal of discontinued service copy and engineering file validation boundaries. There was no existing lint, typecheck or test setup; this remains plain JavaScript.
+There is no separate lint/typecheck configuration. Node tests cover translation/output completeness, required fields, gallery files/deferred loading, phone and file boundaries, email-draft construction and slideshow timing.
 
-`tests/browser.mjs` is an optional Playwright regression script. It requires an installed `playwright` module and browser. Set `PLAYWRIGHT_MODULE` to an ESM module URL if using a bundled installation; set `BROWSER_EXECUTABLE` if using a system browser, then run `node tests/browser.mjs` while the server is running. The local desktop sandbox prevented the standalone browser from launching in this session. Connected-browser checks were used instead; see `DELIVERY_REPORT.md` for actual results. Email delivery and actual company video playback were not tested or claimed.
+For the optional Playwright suite, install/use an available Playwright module and browser. Start the dev server with `BCS_QA=1`; on PowerShell:
 
-## Languages, accessibility and preferences
+```powershell
+$env:BCS_QA='1'
+node scripts/serve.mjs
+```
 
-Locale links have real static URLs and preserve the selected page across reloads. Explicit choices are also stored in localStorage, without overriding shared URLs. Dark is the initial theme; light/dark preference persists when storage is available. Controls support keyboard use; the product track supports arrows, Home and End, plus native touch scrolling. Reduced motion disables decorative motion and automatic slide changes. Original logo and all factual company information are retained or sourced from the public company website; generated product imagery is visibly disclosed in every language.
+Then run `node tests/browser.mjs` in another terminal. Optional environment variables: `PLAYWRIGHT_MODULE` (module URL) and `BROWSER_EXECUTABLE` (browser path). The `/__qa/` fixture observes real slideshow transitions and intercepts validated drafts before an email client opens. It is not included in `dist/` and is disabled without the QA flag. The shared `tests/connected-browser.mjs` checks were also executed through the connected browser because standalone Edge launch failed in the desktop sandbox. See `UPDATE_REPORT.md` for actual results; no unexecuted suite is marked passed.
 
-## SEO and release
+## Release
 
-Build emits localized titles/descriptions, Open Graph, canonical/hreflang tags, organization JSON-LD, sitemap and robots.txt. Canonical domain is `https://bcslasercut.eu/`; update template and build together if the final domain changes. Hosting must serve static directory indexes and correct media MIME types. Old uppercase `/LV/`, `/RU/` URLs should receive redirects from hosting to `/` and `/ru/` during an eventual separately authorized release. Configure HTTPS and appropriate cache/security headers with the chosen hosting service. No deployment settings, domain routing or production files were changed by this task.
-
-For a later reviewed deployment, use the contents of `dist/`. This repository also retains generated root pages for the previous static-root workflow. Do not deploy automatically.
+Work is on `fix/bcs-steel-website-updates`. Nothing is deployed automatically. Review `UPDATE_REPORT.md` and `GIT_HANDOFF.md` before an independently authorized release. Production hosting should serve the contents of `dist/` with directory indexes and media MIME types. Canonical domain remains `https://bcslasercut.eu/`.

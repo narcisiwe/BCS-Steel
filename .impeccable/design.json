@@ -32,20 +32,6 @@
           "oklch(95% 0.15 48)"
         ]
       },
-      "accent-ink-light": {
-        "role": "primary",
-        "displayName": "accent ink light",
-        "tonalRamp": [
-          "oklch(15% 0.15 48)",
-          "oklch(26% 0.15 48)",
-          "oklch(38% 0.15 48)",
-          "oklch(49% 0.15 48)",
-          "oklch(61% 0.15 48)",
-          "oklch(72% 0.15 48)",
-          "oklch(84% 0.15 48)",
-          "oklch(95% 0.15 48)"
-        ]
-      },
       "bg": {
         "role": "neutral",
         "displayName": "bg",
@@ -130,107 +116,9 @@
           "oklch(95% 0.012 250)"
         ]
       },
-      "bg-light": {
-        "role": "neutral",
-        "displayName": "bg light",
-        "tonalRamp": [
-          "oklch(15% 0.012 250)",
-          "oklch(26% 0.012 250)",
-          "oklch(38% 0.012 250)",
-          "oklch(49% 0.012 250)",
-          "oklch(61% 0.012 250)",
-          "oklch(72% 0.012 250)",
-          "oklch(84% 0.012 250)",
-          "oklch(95% 0.012 250)"
-        ]
-      },
-      "secondary-light": {
-        "role": "neutral",
-        "displayName": "secondary light",
-        "tonalRamp": [
-          "oklch(15% 0.012 250)",
-          "oklch(26% 0.012 250)",
-          "oklch(38% 0.012 250)",
-          "oklch(49% 0.012 250)",
-          "oklch(61% 0.012 250)",
-          "oklch(72% 0.012 250)",
-          "oklch(84% 0.012 250)",
-          "oklch(95% 0.012 250)"
-        ]
-      },
-      "card-light": {
-        "role": "neutral",
-        "displayName": "card light",
-        "tonalRamp": [
-          "oklch(15% 0 250)",
-          "oklch(26% 0 250)",
-          "oklch(38% 0 250)",
-          "oklch(49% 0 250)",
-          "oklch(61% 0 250)",
-          "oklch(72% 0 250)",
-          "oklch(84% 0 250)",
-          "oklch(95% 0 250)"
-        ]
-      },
-      "text-light": {
-        "role": "neutral",
-        "displayName": "text light",
-        "tonalRamp": [
-          "oklch(15% 0.012 250)",
-          "oklch(26% 0.012 250)",
-          "oklch(38% 0.012 250)",
-          "oklch(49% 0.012 250)",
-          "oklch(61% 0.012 250)",
-          "oklch(72% 0.012 250)",
-          "oklch(84% 0.012 250)",
-          "oklch(95% 0.012 250)"
-        ]
-      },
-      "muted-light": {
-        "role": "neutral",
-        "displayName": "muted light",
-        "tonalRamp": [
-          "oklch(15% 0.012 250)",
-          "oklch(26% 0.012 250)",
-          "oklch(38% 0.012 250)",
-          "oklch(49% 0.012 250)",
-          "oklch(61% 0.012 250)",
-          "oklch(72% 0.012 250)",
-          "oklch(84% 0.012 250)",
-          "oklch(95% 0.012 250)"
-        ]
-      },
-      "border-light": {
-        "role": "neutral",
-        "displayName": "border light",
-        "tonalRamp": [
-          "oklch(15% 0.012 250)",
-          "oklch(26% 0.012 250)",
-          "oklch(38% 0.012 250)",
-          "oklch(49% 0.012 250)",
-          "oklch(61% 0.012 250)",
-          "oklch(72% 0.012 250)",
-          "oklch(84% 0.012 250)",
-          "oklch(95% 0.012 250)"
-        ]
-      },
       "error": {
         "role": "neutral",
         "displayName": "error",
-        "tonalRamp": [
-          "oklch(15% 0.1 35)",
-          "oklch(26% 0.1 35)",
-          "oklch(38% 0.1 35)",
-          "oklch(49% 0.1 35)",
-          "oklch(61% 0.1 35)",
-          "oklch(72% 0.1 35)",
-          "oklch(84% 0.1 35)",
-          "oklch(95% 0.1 35)"
-        ]
-      },
-      "error-light": {
-        "role": "neutral",
-        "displayName": "error light",
         "tonalRamp": [
           "oklch(15% 0.1 35)",
           "oklch(26% 0.1 35)",
@@ -262,8 +150,8 @@
       },
       {
         "name": "hero-progress",
-        "value": "8s linear",
-        "purpose": "Active slide timing."
+        "value": "8s JavaScript clock",
+        "purpose": "One clock drives slide changes and progress scale; no separate CSS progress animation."
       },
       {
         "name": "hero-settle",
@@ -355,12 +243,12 @@
   ],
   "narrative": {
     "northStar": "The Precision Workshop",
-    "overview": "Manufacturing photography carries the atmosphere: steel, machinery, scale and controlled light. Manrope supplies a calm, precise voice over charcoal surfaces, with generous section spacing and a clear hierarchy of large headings and compact supporting detail.\n\nDark is the default; the light theme preserves the same geometry with warm pale backgrounds and dark text. The original company logo remains intact. LV, RU and EN share the visual system and must retain legibility as copy length changes.",
+    "overview": "Manufacturing photography carries the atmosphere: steel, machinery, scale and controlled light. Manrope supplies a calm, precise voice over charcoal surfaces, with generous section spacing and a clear hierarchy of large headings and compact supporting detail.\n\nThe website uses one consistent dark theme. The original company logo remains intact. LV, RU and EN share the visual system and must retain legibility as copy length changes.",
     "keyCharacteristics": [
       "Dominant industrial photography with cinematic shading.",
       "Large restrained type and wide section hierarchy.",
       "Square geometry, flat tonal layers and sparse orange signals.",
-      "One system across dark/light themes and LV/RU/EN."
+      "One dark system across LV/RU/EN."
     ],
     "rules": [
       {
@@ -377,7 +265,7 @@
     "dos": [
       "Do preserve the original logo and locally hosted Manrope across Latin and Cyrillic content.",
       "Do keep photography dominant and legible shading behind hero copy.",
-      "Do use theme-aware accent ink for small orange text and focus on light surfaces.",
+      "Do retain the dark palette and visible orange keyboard focus.",
       "Do preserve keyboard focus, reduced motion and readable multilingual wrapping.",
       "Do describe the contact action as an email draft and preserve illustration disclosures."
     ],

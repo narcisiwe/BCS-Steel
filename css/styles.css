@@ -11,16 +11,6 @@
   --max:1320px;
   color-scheme:dark
 }
-:root[data-theme=light] {
-  --bg:#f6f5f2;
-  --secondary:#eaece9;
-  --card:#fff;
-  --text:#111921;
-  --muted:#4f5c67;
-  --border:#c6cdd0;
-  --header:rgba(246,245,242,.97);
-  color-scheme:light
-}
 * {
   box-sizing:border-box
 }
@@ -372,16 +362,7 @@ input,textarea {
   background:#ffffff35
 }
 .slide-tabs button[aria-current] i:after {
-  content:'';
-  display:block;
-  height:2px;
-  background:var(--accent);
-  width:100%;
-  transform-origin:left;
-  animation:progress 8s linear both
-}
-.hero.paused .slide-tabs button i:after {
-  animation-play-state:paused
+  content:"";display:block;height:2px;background:var(--accent);width:100%;transform-origin:left;transform:scaleX(var(--slide-progress,0));
 }
 .slide-controls {
   display:flex;
@@ -809,14 +790,6 @@ footer {
   }
   to {
     transform:scale(1)
-  }
-}
-@keyframes progress {
-  from {
-    transform:scaleX(0)
-  }
-  to {
-    transform:scaleX(1)
   }
 }
 @keyframes text-in {
@@ -1257,10 +1230,6 @@ footer {
   --accent-ink:#ff7900;
   --error:#ffb6a0
 }
-:root[data-theme=light] {
-  --accent-ink:#a34700;
-  --error:#a3220b
-}
 .equipment-service,.site-header.scrolled nav a:hover,.site-header.scrolled nav a.active,.site-header.scrolled .languages a[aria-current],dd a:hover {
   color:var(--accent-ink)
 }
@@ -1272,4 +1241,53 @@ footer {
 }
 .hero :focus-visible,.site-header:not(.scrolled) :focus-visible {
   outline-color:#ff7900
+}
+
+/* Requested additions inherit the existing industrial presentation. */
+.service-body h3{min-height:0}
+.service-image:focus-visible{outline-offset:4px}
+.equipment-note{font-size:12px;color:var(--muted)}
+.drawing-info{margin:0 0 26px}
+.about-galleries{padding-top:90px;padding-bottom:0}
+.gallery-block{margin-bottom:80px}
+.gallery-block:last-child{margin-bottom:0}
+.gallery-block .section-heading{align-items:center;gap:32px;margin-bottom:28px}
+.gallery-block h2{font-size:clamp(25px,2.4vw,35px);max-width:900px}
+.gallery-block .carousel-controls{flex:none;margin:0}
+.gallery-track{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 24px)/2);gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;padding:5px 5px 20px}
+.gallery-item{position:relative;display:block;aspect-ratio:1.45;scroll-snap-align:start;padding:0;border:0;background:var(--card);overflow:hidden;color:var(--text)}
+.gallery-item img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.gallery-item:hover img{transform:scale(1.035)}
+.gallery-item>span{position:absolute;left:16px;bottom:16px;padding:7px 10px;background:#0b0f14e6;color:#e3e7eb;font-size:10px;text-align:left}
+.lightbox-open{overflow:hidden}
+#lightbox{width:min(1200px,96vw);max-width:96vw;max-height:94svh;padding:18px 24px;border:1px solid var(--border);background:var(--bg);color:var(--text)}
+#lightbox::backdrop{background:#030609ed}
+.lightbox-toolbar{display:flex;justify-content:flex-end;margin-bottom:12px}
+.lightbox-stage{display:flex;align-items:center;gap:18px}
+.lightbox-stage figure{flex:1;min-width:0;margin:0;text-align:center}
+#lightbox-image{width:100%;height:min(66svh,760px);object-fit:contain}
+#lightbox-caption{font-size:12px;margin:17px 0;color:var(--muted)}
+#lightbox-count{font-size:11px;color:var(--muted);text-align:center;margin:10px 0 0}
+.field-error{display:block;color:var(--error);font-size:11px;line-height:1.7;font-weight:400}
+.field-error:empty{display:none}
+[aria-invalid=true]{border-color:var(--error)}
+.file-field{position:relative}
+.file-field:focus-within{outline:2px solid var(--accent);outline-offset:4px}
+.file-field>input{position:absolute;inset:0;opacity:0;width:100%;height:100%;cursor:pointer}
+.file-picker{display:flex;align-items:center;gap:12px;min-height:40px;overflow:hidden}
+.file-picker b{background:var(--card);border:1px solid var(--border);padding:9px;color:var(--text);white-space:nowrap}
+#file-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--text)}
+@media(max-width:700px){
+ .about-galleries{padding-top:60px}
+ .gallery-block{margin-bottom:55px}
+ .gallery-block .section-heading{display:flex;align-items:flex-end;gap:14px}
+ .gallery-block h2{font-size:25px}
+ .gallery-block .carousel-controls{gap:5px}
+ .gallery-block .icon-button{width:40px;height:44px}
+ .gallery-track{grid-auto-columns:90%;gap:16px}
+ #lightbox{padding:12px;max-height:96svh}
+ .lightbox-stage{gap:8px}
+ .lightbox-stage>.icon-button{width:34px;min-width:34px;height:44px}
+ #lightbox-image{height:58svh}
+ #lightbox-caption{font-size:11px}
 }

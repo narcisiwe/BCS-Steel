@@ -4,21 +4,13 @@ description: "Restrained industrial confidence through photography, charcoal sur
 colors:
   accent: "#ff7900"
   accent-hover: "#ff9638"
-  accent-ink-light: "#a34700"
   bg: "#0b0f14"
   secondary: "#151b22"
   card: "#1c242d"
   text: "#ffffff"
   muted: "#a8b3bf"
   border: "#303a45"
-  bg-light: "#f6f5f2"
-  secondary-light: "#eaece9"
-  card-light: "#ffffff"
-  text-light: "#111921"
-  muted-light: "#4f5c67"
-  border-light: "#c6cdd0"
   error: "#ffb6a0"
-  error-light: "#a3220b"
 typography:
   display:
     fontFamily: "Manrope, Arial, sans-serif"
@@ -90,30 +82,29 @@ components:
 
 Manufacturing photography carries the atmosphere: steel, machinery, scale and controlled light. Manrope supplies a calm, precise voice over charcoal surfaces, with generous section spacing and a clear hierarchy of large headings and compact supporting detail.
 
-Dark is the default; the light theme preserves the same geometry with warm pale backgrounds and dark text. The original company logo remains intact. LV, RU and EN share the visual system and must retain legibility as copy length changes.
+The website uses one consistent dark theme. The original company logo remains intact. LV, RU and EN share the visual system and must retain legibility as copy length changes.
 
 **Key Characteristics:**
 - Dominant industrial photography with cinematic shading.
 - Large restrained type and wide section hierarchy.
 - Square geometry, flat tonal layers and sparse orange signals.
-- One system across dark/light themes and LV/RU/EN.
+- One dark system across LV/RU/EN.
 
 ## Colors
 
-Cool industrial neutrals meet a warm, deliberately scarce action signal. Frontmatter values are normative; CSS theme variables select the active set.
+Cool industrial neutrals meet a warm, deliberately scarce action signal. Frontmatter values are normative; CSS custom properties define the single dark palette.
 
 ### Primary
 
-- **Safety Orange** (accent): primary fills, active hero progress and dark-theme accent ink.
+- **Safety Orange** (accent): primary fills, active hero progress, accent text and focus.
 - **Warm Orange** (accent-hover): primary button hover.
-- **Burnished Orange** (accent-ink-light): small accent text and focus on light surfaces; brighter orange remains on primary fills.
 
 ### Neutral
 
 - **Workshop Charcoal**, **Machine Housing** and **Steel Panel** (bg, secondary, card): page, alternate sections and product containers.
 - **White**, **Cool Steel** and **Seam Grey** (text, muted, border): primary copy, supporting detail and structural dividers.
-- Light variants use warm pale surfaces, white cards, dark ink, slate detail and grey seams. Hero imagery remains dark with white copy in either theme.
-- Theme-specific error colors are reserved for validation.
+- Hero imagery remains dark with white copy.
+- Error ink is reserved for validation.
 
 **The Signal Rule.** Reserve orange for primary actions, active navigation, progress, small process markers and focus. Let imagery and neutral surfaces occupy the broad areas.
 
@@ -137,7 +128,7 @@ The hero is viewport-scale with a desktop minimum of 720px; mobile uses an 850px
 
 ## Elevation & Depth
 
-The system is flat and has no box-shadow vocabulary. Tonal surfaces, fine borders, photographic perspective and dark image overlays provide depth. The header overlays imagery and becomes a near-opaque themed fixed surface after scrolling.
+The system is flat and has no box-shadow vocabulary. Tonal surfaces, fine borders, photographic perspective and dark image overlays provide depth. The header overlays imagery and becomes a near-opaque charcoal fixed surface after scrolling.
 
 **The Tonal Depth Rule.** Use surface changes, image shading and fine dividers for hierarchy; do not add decorative card shadows.
 
@@ -149,7 +140,7 @@ Square corners define buttons, cards, fields and icon controls. Fine borders are
 
 ### Buttons
 
-Primary controls use orange fills, dark lettering, square corners and a minimum 56px height. Hover warms the fill and lifts 2px over 0.2s. Text links remain unboxed; their arrow shifts 4px over 0.25s. Icon buttons have a fine border and transparent fill; hover adds orange edging and a faint orange wash. Disabled controls use 0.4 opacity. Focus is a 2px outline offset 5px, with theme-aware accent ink; hero focus retains bright orange.
+Primary controls use orange fills, dark lettering, square corners and a minimum 56px height. Hover warms the fill and lifts 2px over 0.2s. Text links remain unboxed; their arrow shifts 4px over 0.25s. Icon buttons have a fine border and transparent fill; hover adds orange edging and a faint orange wash. Disabled controls use 0.4 opacity. Focus is a 2px outline offset 5px, in orange.
 
 ### Cards / Containers
 
@@ -157,22 +148,26 @@ Services are image-led and unboxed, with copy below. Products use card surfaces,
 
 ### Inputs / Fields
 
-Fields use page backgrounds inside a secondary-surface form, fine borders and square corners. Focus follows the shared outline and caret uses orange. Files have a dashed outer frame and native selector. Consent is explicit; validation uses theme error ink and status a fine orange border. Submission prepares an email draft, retaining attachment guidance without claiming automatic delivery.
+Fields use page backgrounds inside a secondary-surface form, fine borders and square corners. Focus follows the shared outline and caret uses orange. Files have a dashed outer frame and a localized visible selector. Consent is explicit; validation uses the dark error ink and status a fine orange border. Submission prepares an email draft, retaining attachment guidance without claiming automatic delivery.
 
 ### Navigation
 
-The original logo and STEEL wordmark sit left; compact links and LV/RU/EN controls sit right. Active desktop links gain an orange underline. Header height is 98px over imagery and 80px when fixed; below 1000px a vertical menu opens under an 80px header. Language selection uses aria-current and orange; scrolled light-theme labels use accent ink.
+The original logo and STEEL wordmark sit left; compact links and LV/RU/EN controls sit right. Active desktop links gain an orange underline. Header height is 98px over imagery and 80px when fixed; below 1000px a vertical menu opens under an 80px header. Language selection uses aria-current and orange. In-place language changes preserve the current slide and form input.
 
 ### Hero and Product Carousels
 
-The hero has four photography/video-capable slides, image fallbacks, a 1.2s crossfade, subtle 10s image settling and an 8s progress line. Keep previous/next, direct selection and pause controls. Text changes use a 0.65s eased entrance. Products use horizontal scroll snapping and explicit arrow controls. Reduced motion removes animation, transitions and smooth scrolling.
+The hero has four photography/video-capable slides, image fallbacks, a 1.2s crossfade, subtle 10s image settling and an 8s progress line driven by the same JavaScript clock as slide changes, without a separate CSS progress animation. Keep previous/next, direct selection and pause controls. Text changes use a 0.65s eased entrance. Products use horizontal scroll snapping and explicit arrow controls. Reduced motion removes animation, transitions and smooth scrolling.
+
+### About galleries
+
+Two horizontal scroll-snap tracks inherit the existing square-cornered industrial imagery, showing two images across on desktop and a 90%-width image on mobile. Previous/next controls accompany each track. Captions distinguish real company photographs from product illustrations. Native modal lightboxes support Escape, arrow keys and focus return. Full-resolution sources load on demand.
 
 ## Do's and Don'ts
 
 ### Do:
 - Do preserve the original logo and locally hosted Manrope across Latin and Cyrillic content.
 - Do keep photography dominant and legible shading behind hero copy.
-- Do use theme-aware accent ink for small orange text and focus on light surfaces.
+- Do retain the dark palette and visible orange keyboard focus.
 - Do preserve keyboard focus, reduced motion and readable multilingual wrapping.
 - Do describe the contact action as an email draft and preserve illustration disclosures.
 
@@ -181,3 +176,4 @@ The hero has four photography/video-capable slides, image fallbacks, a 1.2s cros
 - Don't add pill controls, soft card shadows or a competing display font.
 - Don't remove pause/manual carousel controls or make essential content depend on animation.
 - Don't present illustrative imagery or email drafts as verified production output or delivered inquiries.
+

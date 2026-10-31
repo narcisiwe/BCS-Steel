@@ -9,4 +9,8 @@
 - Never pretend that the email draft form uploads files or delivers an inquiry. A backend requires server-side validation and delivery tests before enabling online submissions.
 - Video sources belong in `js/media.js`; never infer downloadable footage from an embedded player. Keep poster fallbacks and reduced-motion/data-saving behavior.
 - Run `node scripts/build.mjs`, `node --test tests/*.test.mjs` and syntax checks before handoff. Do not deploy production or force-push.
-- Work on `feature/bcs-steel-redesign`; preserve unrelated changes. Generated `dist/` is ignored.
+- Work on `fix/bcs-steel-website-updates`; preserve unrelated changes. Generated `dist/` is ignored.
+- Preserve the existing dark-only visual design. Do not reintroduce theme controls or stored theme state.
+- Keep slideshow progress and slide transitions on the single `slideshow-clock.js` timeline. Verify at least two real automatic cycles after scheduler changes.
+- Keep in-place locale switching and all controls operational under nested static-hosting paths.
+- HSG G3015X replaces the previous laser machine; omit unverified specifications.
