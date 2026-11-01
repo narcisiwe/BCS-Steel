@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Reduced motion and lifecycle QA</title><link rel="stylesheet" href="/css/styles.css"></head><body><button id="previous">Previous</button><button id="pause" data-play="Play" data-pause="Pause">Pause</button><button id="next">Next</button><div class="gallery-track" id="track" tabindex="0"><button class="gallery-item"><img src="/media/gallery/work-0.webp" alt="Laser-cut parts"></button><button class="gallery-item"><img src="/media/gallery/work-1.webp" alt="Bent metal parts"></button><button class="gallery-item"><img src="/media/gallery/work-2.webp" alt="Metal components"></button></div><pre id="results">Running…</pre><script src="/js/vendor/gsap.min.js"></script><script type="module">
+import {createCarousel} from '/js/carousel.js';
+const wait=ms=>new Promise(r=>setTimeout(r,ms)),results=[],out=document.querySelector('#results');
+const check=(name,pass,detail)=>{results.push({name,pass,detail});out.textContent=JSON.stringify(results,null,2);};
+const track=document.querySelector('#track'),previous=document.querySelector('#previous'),next=document.querySelector('#next'),pauseButton=document.querySelector('#pause');
+const motion=new EventTarget();motion.matches=true;
+let carousel=createCarousel({track,previous,next,pauseButton,motion,saved:{phase:.37},seconds:50});
+await wait(700);check('Reduced motion disables automatic rotation and preserves saved phase',track.dataset.running==='false'&&Number(track.dataset.phase)===.37&&pauseButton.disabled);
+next.click();const stepped=Number(track.dataset.phase);await wait(300);check('Reduced motion arrow remains usable without animated travel',Math.abs(stepped-.37-1/3)<.0001&&Number(track.dataset.phase)===stepped);
+const saved=carousel.snapshot();carousel.destroy();const afterDestroy=Number(track.dataset.phase);next.click();await wait(200);check('Destroyed controller removes navigation listeners',Number(track.dataset.phase)===afterDestroy);
+carousel=createCarousel({track,previous,next,pauseButton,motion,saved});check('Recreation restores current phase',Number(track.dataset.phase)===saved.phase);
+motion.matches=false;motion.dispatchEvent(new Event('change'));await wait(200);check('Inactivity survives recreation',track.dataset.running==='false');
+carousel.destroy();out.dataset.complete='true';
+</script></body></html>

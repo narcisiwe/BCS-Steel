@@ -6,6 +6,12 @@ const root=path.resolve('dist'),port=Number(process.env.PORT||4173);
 const qa=process.env.BCS_QA==='1';
 const types={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.webp':'image/webp','.png':'image/png','.woff2':'font/woff2','.xml':'application/xml','.txt':'text/plain','.mp4':'video/mp4','.webm':'video/webm'};
 http.createServer(async(req,res)=>{try{const url=new URL(req.url,'http://localhost');
+if(qa&&url.pathname==='/__qa/carousel-reduced/'){
+ res.writeHead(200,{'Content-Type':'text/html; charset=utf-8','Cache-Control':'no-cache'});res.end(await readFile('tests/carousel-reduced.html'));return;
+}
+if(qa&&url.pathname==='/__qa/carousel/'){
+ res.writeHead(200,{'Content-Type':'text/html; charset=utf-8','Cache-Control':'no-cache'});res.end(await readFile('tests/carousel-fixture.html'));return;
+}
 if(qa&&url.pathname==='/__qa/hero/'){
  res.writeHead(200,{'Content-Type':'text/html; charset=utf-8','Cache-Control':'no-cache'});res.end(await readFile('tests/hero-fixture.html'));return;
 }

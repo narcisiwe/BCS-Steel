@@ -179,3 +179,7 @@ Two horizontal scroll-snap tracks inherit the existing square-cornered industria
 - Don't remove pause/manual carousel controls or make essential content depend on animation.
 - Don't present illustrative imagery or email drafts as verified production output or delivered inquiries.
 
+
+## About gallery motion (November 2026)
+
+The two About image galleries use original elliptical panel positioning driven by local GSAP core. A linear fifty-second revolution moves foreground panels left to right; mobile uses narrower panels and shallower depth. Existing real work photographs and labeled illustrative product concepts retain their provenance and lightboxes. Pointer entry/movement, drag, arrows and focus suspend autoplay; one resettable ten-second inactivity deadline resumes from the current phase after focus/drag release. Explicit pause persists, hidden/offscreen/lightbox states suspend, and reduced motion uses immediate manual navigation. Locale reconstruction retains phase, deadline and explicit pause. Hero progress keeps its separate seven-second clock and restores the original one-pixel gray track with two-pixel orange fill.

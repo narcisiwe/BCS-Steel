@@ -1,0 +1,33 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Carousel QA</title><style>body{margin:0;background:#0b0f14;color:white}iframe{width:100%;height:850px;border:0}pre{white-space:pre-wrap}</style></head><body><iframe src="/?lang=en" title="Production carousel under test"></iframe><pre id="results">Running…</pre><script>
+const frame=document.querySelector('iframe'),results=[],out=document.querySelector('#results');
+const wait=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+const check=(name,ok,detail)=>{results.push({name,pass:!!ok,detail});out.textContent=JSON.stringify(results,null,2);};
+frame.onload=async()=>{try{
+ const w=frame.contentWindow,d=frame.contentDocument;await wait(800);
+ let track=d.querySelector('[data-gallery-track="0"]');track.scrollIntoView({block:'center',behavior:'instant'});await wait(500);
+ const phase=()=>Number(track.dataset.phase),initial=phase();let last=initial,total=0,maxDelta=0;
+ const sample=setInterval(()=>{let current=phase(),delta=(current-last+1)%1;total+=delta;maxDelta=Math.max(maxDelta,delta);last=current;},100);
+ await wait(51200);clearInterval(sample);
+ check('Uninterrupted 50-second revolution and seamless wrap',total>1&&maxDelta<.02,{total,maxDelta});
+ track.dispatchEvent(new w.PointerEvent('pointerenter',{pointerType:'mouse',bubbles:false}));const stopped=phase();await wait(700);
+ check('Pointer entry pauses immediately',phase()===stopped);
+ track.dispatchEvent(new w.PointerEvent('pointerdown',{pointerId:7,pointerType:'touch',clientX:100,button:0,bubbles:true}));
+ // Synthetic pointer has no browser capture; capture methods are stubbed only in this QA document.
+ const capture=track.setPointerCapture,has=track.hasPointerCapture;track.setPointerCapture=()=>{};track.hasPointerCapture=()=>false;
+ track.dispatchEvent(new w.PointerEvent('pointermove',{pointerId:7,pointerType:'touch',clientX:230,bubbles:true}));
+ w.dispatchEvent(new w.PointerEvent('pointerup',{pointerId:7,pointerType:'touch',clientX:230,bubbles:true}));track.setPointerCapture=capture;track.hasPointerCapture=has;
+ const dragged=phase();check('Touch-pointer drag changes position',Math.abs(dragged-stopped)>.01);
+ track.querySelector('button').click();check('Drag suppresses following click',!d.querySelector('dialog').open);
+ await wait(5800);track.dispatchEvent(new w.PointerEvent('pointerenter',{pointerType:'mouse'}));
+ await wait(5200);check('Repeated interaction resets inactivity deadline',track.dataset.running==='false'&&phase()===dragged);
+ await wait(5100);check('Resumes after ten seconds at current position',track.dataset.running==='true'&&Math.abs(phase()-dragged)<.05);
+ d.querySelector('[data-gallery-next="0"]').click();await wait(650);const arrowPhase=phase();check('Arrow moves and pauses',Math.abs(arrowPhase-dragged)>.1&&track.dataset.running==='false');
+ const item=track.querySelector('button');item.focus();await wait(10300);check('Keyboard focus holds after ten seconds',track.dataset.running==='false');
+ item.click();check('Image click opens full-resolution lightbox',d.querySelector('dialog').open&&d.querySelector('#lightbox-image').getAttribute('src').includes('/full/'));d.querySelector('#lightbox-close').click();
+ d.querySelector('[data-gallery-pause="0"]').click();const beforeLocale=phase();d.querySelector('.languages a[lang="ru"]').click();await wait(250);
+ track=d.querySelector('[data-gallery-track="0"]');check('Locale preserves phase and explicit pause',Math.abs(phase()-beforeLocale)<.001&&d.querySelector('[data-gallery-pause="0"]').getAttribute('aria-pressed')==='true');
+ const second=d.querySelector('[data-gallery-track="1"]');second.scrollIntoView({block:'center',behavior:'instant'});await wait(500);const secondStart=Number(second.dataset.phase);await wait(900);check('Second carousel independently rotates',Number(second.dataset.phase)>secondStart);
+ check('No horizontal document overflow',d.documentElement.scrollWidth<=w.innerWidth);
+ out.dataset.complete='true';
+}catch(error){check('Fixture completed without exception',false,error.stack);out.dataset.complete='true';}};
+</script></body></html>

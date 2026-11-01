@@ -1,4 +1,14 @@
 @import url('./fonts.css');
+/* Gallery panels follow an ellipse; the unenhanced gallery stays scrollable. */
+.gallery-track.orbit-track{display:block;position:relative;height:440px;overflow:hidden;perspective:1100px;touch-action:pan-y;scroll-snap-type:none;padding:0;isolation:isolate;cursor:grab}
+.orbit-track .gallery-item{position:absolute;left:calc(50% - 150px);top:65px;width:300px;height:280px;margin:0;border:0;border-radius:12px;overflow:hidden;box-shadow:0 18px 34px #0006;will-change:transform;transition:none}
+.orbit-track .gallery-item img{height:100%;width:100%;object-fit:cover;pointer-events:none}
+.orbit-track .gallery-item:after{content:'';position:absolute;inset:0;background:var(--bg);opacity:var(--orbit-shade,0);pointer-events:none}
+.orbit-track .gallery-item span{position:absolute;left:0;right:0;bottom:0;background:#0b0f14e8;padding:12px;text-align:left;pointer-events:none}
+.orbit-track .gallery-item:focus-visible{outline:2px solid var(--accent);outline-offset:-3px}
+.orbit-track:active{cursor:grabbing}
+[data-gallery-pause][aria-pressed="true"] svg{opacity:.45}
+@media(max-width:650px){.gallery-track.orbit-track{height:340px;perspective:1300px}.orbit-track .gallery-item{width:230px;height:230px;left:calc(50% - 115px);top:45px}}
 :root {
   --bg:#0b0f14;
   --secondary:#151b22;
@@ -352,14 +362,14 @@ input,textarea {
   left:0;
   bottom:0;
   width:100%;
-  height:2px;
-  overflow:hidden;
+  height:1px;
+  overflow:visible;
   background:#ffffff35;
 }
 .slide-progress-fill {
   display:block;
   width:100%;
-  height:100%;
+  height:2px;
   background:var(--accent);
   transform:scaleX(0);
   transform-origin:left center;

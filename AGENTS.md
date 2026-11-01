@@ -1,6 +1,6 @@
 # BCS Steel development rules
 
-- Keep the dependency-free static HTML/CSS/JavaScript architecture. Build with Node 20+.
+- Keep the static HTML/CSS/JavaScript architecture. GSAP core is the user-requested animation dependency; do not add plugins without need. Build with Node 20+ after npm ci.
 - Latvian is the default language; maintain LV, RU and EN together in `js/content.js`.
 - Preserve the original logo. Use the brief's dark industrial palette and restrained orange.
 - Company facts must come from verified company sources. Do not add certifications, tolerances, lead times or equipment models without evidence.

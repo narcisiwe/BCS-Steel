@@ -3,6 +3,7 @@ import {render} from './render.js';
 import {galleries} from './gallery-data.js';
 import {validDrawing,validPhone,prepareInquiry} from './validation.js';
 import {createHero} from './hero.js';
+import {createCarousel} from './carousel.js';
 
 const root=new URL('../',import.meta.url);
 const sourceAssets=document.querySelector('.brand img').src.includes('/public/media/');
@@ -51,7 +52,7 @@ function initialize(saved={}){
     const resize=new ResizeObserver(update);resize.observe(track);observers.push(resize);update();
   }
   wireTrack($('#products'),$('#products-prev'),$('#products-next'));
-  $$('[data-gallery-track]').forEach((track,i)=>wireTrack(track,$(`[data-gallery-prev="${i}"]`),$(`[data-gallery-next="${i}"]`)));
+  const carousels=$$('[data-gallery-track]').map((track,i)=>createCarousel({track,previous:$(`[data-gallery-prev="${i}"]`),next:$(`[data-gallery-next="${i}"]`),pauseButton:$(`[data-gallery-pause="${i}"]`),motion,saved:saved.carousels?.[i],seconds:track.dataset.seconds}));
 
   const dialog=$('#lightbox'),largeImage=$('#lightbox-image');
   let galleryIndex=0,imageIndex=0,opener;
@@ -65,13 +66,13 @@ function initialize(saved={}){
   }
   $$('[data-gallery]').forEach(button=>listen(button,'click',()=>{
     opener=button;galleryIndex=Number(button.dataset.gallery);showImage(Number(button.dataset.image));
-    clock.pause('lightbox',true);dialog.showModal();document.body.classList.add('lightbox-open');
+    clock.pause('lightbox',true);carousels.forEach(carousel=>carousel.pause('lightbox',true));dialog.showModal();document.body.classList.add('lightbox-open');
   }));
   listen($('#lightbox-close'),'click',()=>dialog.close());
   listen($('#lightbox-prev'),'click',()=>showImage(imageIndex-1));listen($('#lightbox-next'),'click',()=>showImage(imageIndex+1));
   listen(dialog,'keydown',event=>{if(event.key==='ArrowRight'){event.preventDefault();showImage(imageIndex+1);}if(event.key==='ArrowLeft'){event.preventDefault();showImage(imageIndex-1);}});
   listen(dialog,'click',event=>{if(event.target===dialog){const box=dialog.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)dialog.close();}});
-  listen(dialog,'close',()=>{document.body.classList.remove('lightbox-open');largeImage.removeAttribute('src');clock.pause('lightbox',false);opener?.focus({preventScroll:true});});
+  listen(dialog,'close',()=>{document.body.classList.remove('lightbox-open');largeImage.removeAttribute('src');clock.pause('lightbox',false);carousels.forEach(carousel=>carousel.pause('lightbox',false));opener?.focus({preventScroll:true});});
   let lightboxX=0;
   listen(largeImage,'touchstart',event=>{lightboxX=event.changedTouches[0].clientX;},{passive:true});
   listen(largeImage,'touchend',event=>{const x=event.changedTouches[0].clientX-lightboxX;if(Math.abs(x)>60)showImage(imageIndex+(x<0?1:-1));},{passive:true});
@@ -108,8 +109,8 @@ function initialize(saved={}){
   });
   if(saved.tracks)$$('#products,[data-gallery-track]').forEach((track,i)=>{track.scrollLeft=saved.tracks[i]||0;});
   return {
-    snapshot(){return {hero:clock.snapshot(),form:Object.fromEntries(fields.map(field=>[field.name,field.type==='checkbox'?field.checked:field.value])),file:drawing,tracks:$$('#products,[data-gallery-track]').map(track=>track.scrollLeft)};},
-    destroy(){abort.abort();observers.forEach(observer=>observer.disconnect());clock.destroy();if(dialog.open)dialog.close();document.body.classList.remove('lightbox-open');}
+    snapshot(){return {hero:clock.snapshot(),carousels:carousels.map(carousel=>carousel.snapshot()),form:Object.fromEntries(fields.map(field=>[field.name,field.type==='checkbox'?field.checked:field.value])),file:drawing,tracks:$$('#products,[data-gallery-track]').map(track=>track.scrollLeft)};},
+    destroy(){abort.abort();observers.forEach(observer=>observer.disconnect());clock.destroy();carousels.forEach(carousel=>carousel.destroy());if(dialog.open)dialog.close();document.body.classList.remove('lightbox-open');}
   };
 }
 

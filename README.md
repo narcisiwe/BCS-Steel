@@ -1,23 +1,24 @@
 # BCS Steel
 
-Existing industrial website, updated without changing its visual identity. Dark-only, dependency-free HTML/CSS/JavaScript. Latvian is the default; Russian and English are centralized in `js/content.js`.
+Existing industrial website, updated without changing its visual identity. Dark-only static HTML/CSS/JavaScript with local GSAP core for the two About image carousels. Latvian is the default; Russian and English are centralized in `js/content.js`.
 
 ## Preview and build
 
 From this directory, with Node.js 20+:
 
 ```sh
+npm ci
 node scripts/build.mjs
 node scripts/serve.mjs
 ```
 
-Open http://127.0.0.1:4173/ . No dependency installation is needed. Stop with Ctrl+C. `dist/` contains the production static files. The build also regenerates root, `ru/` and `en/` HTML pages for static-root hosting. Use HTTP, not `file://`, for JavaScript modules.
+Open http://127.0.0.1:4173/ . Stop with Ctrl+C. `dist/` contains the production static files, including local GSAP core; hosting needs no npm or CDN connection. The build also regenerates root, `ru/` and `en/` HTML pages for static-root hosting. Use HTTP, not `file://`, for JavaScript modules.
 
 ## Update behavior
 
 - The hero uses one animation-frame clock for seven-second dwell/progress, a 1100 ms overlapping crossfade, alternating Ken Burns movement and staggered copy entrances. Manual changes reset progress; Pause preserves elapsed time and slideshow motion. Hidden pages, an offscreen hero, open lightboxes and reduced motion suspend automatic changes. Reduced motion retains a short manual fade without spatial movement. Inactive videos pause.
 - Language controls render all content in place, update `html.lang` and localized metadata, use query URLs that work under nested hosting paths, and persist the choice when storage is available. Current slide, form values, attachment selection and carousel positions survive switching. Static locale URLs also remain available for indexing.
-- Two About galleries use real company work photographs and explicitly labeled existing product illustrations. Full-resolution lightbox sources are requested on click; Escape/arrow keys, focus return and touch/native horizontal scrolling are supported. See `GALLERY_IMAGES.md` for every source.
+- Two About galleries use real company work photographs and explicitly labeled existing product illustrations on elliptical GSAP displays. `data-seconds="50"` configures revolution speed. Pointer entry/movement, drag, focus and arrows pause autoplay; rotation resumes after ten seconds without interaction once focus/drag is released. Each gallery has a persistent pause control. Hidden/offscreen and reduced-motion displays suspend autoplay. Locale changes preserve phase and pause. Full-resolution lightboxes remain available. See `GALLERY_IMAGES.md` for every source.
 - HSG G3015X replaces the previous laser machine. Its unverified technical specifications are omitted. The existing image shows production details, not an asserted photograph of that machine. Other verified equipment information remains.
 - Name, email, phone, description, service and consent are required; company and drawing are optional. Phone validation accepts international formatting and 7–15 digits, excluding an initial international `00` access prefix. Files remain limited to nonempty PDF/DXF/DWG/STEP/STP files up to 10 MiB.
 
