@@ -1,0 +1,1169 @@
+{
+  "checked_at": "2026-10-25T19:44:50.921491+00:00",
+  "pages": {
+    "https://bcslasercut.eu/": {
+      "title": [
+        "EN"
+      ],
+      "lang": [
+        "en"
+      ],
+      "sha256": "8b6ec0acb1ddbf8930cd54cf6c97db27d22bebfc37265289957d060a3ae5f675"
+    },
+    "https://bcslasercut.eu/LV/": {
+      "title": [
+        "LV"
+      ],
+      "lang": [
+        "en"
+      ],
+      "sha256": "80b3d20839b8aec5f0b271ce3786bc7fe2bf9a95ed5607e6821c1b9186e00ed4"
+    },
+    "https://bcslasercut.eu/RU/": {
+      "title": [
+        "RU"
+      ],
+      "lang": [
+        "en"
+      ],
+      "sha256": "8c8c683a888341e558228f5db856e2dff8f269fa212dec1a7097ce0f23c3a869"
+    },
+    "https://bcslasercut.eu/DE/": {
+      "title": [
+        "DE"
+      ],
+      "lang": [
+        "en"
+      ],
+      "sha256": "098589c28532d210f47d8fb6d58b3d372496c33a82ab417430b3dfde0d1a0593"
+    }
+  },
+  "code_documents_checked": [
+    "https://bcslasercut.eu/DE/gtm.js",
+    "https://bcslasercut.eu/LV/gtm.js",
+    "https://bcslasercut.eu/RU/gtm.js",
+    "https://bcslasercut.eu/bitrix/components/bitrix/landing.pub/templates/.default/script.min.js?17839525727517",
+    "https://bcslasercut.eu/bitrix/components/bitrix/landing.pub/templates/.default/script.min.js?17912775439640",
+    "https://bcslasercut.eu/bitrix/components/bitrix/landing.pub/templates/.default/style.min.css?178395257239547",
+    "https://bcslasercut.eu/bitrix/components/bitrix/landing.pub/templates/.default/style.min.css?179155187340493",
+    "https://bcslasercut.eu/bitrix/js/catalog/core_tree.min.js?178947346245544",
+    "https://bcslasercut.eu/bitrix/js/intranet/design-tokens/bitrix24/air-design-tokens.min.css?17539754263744",
+    "https://bcslasercut.eu/bitrix/js/landing/css/landing_public.min.css?1789129667436",
+    "https://bcslasercut.eu/bitrix/js/landing/metrika/dist/metrika.bundle.min.js?17891296673708",
+    "https://bcslasercut.eu/bitrix/js/main/baseline/dist/baseline.bundle.min.js?17803062844439",
+    "https://bcslasercut.eu/bitrix/js/main/baseline/dist/baseline.bundle.min.js?17915426884633",
+    "https://bcslasercut.eu/bitrix/js/main/core/core.js",
+    "https://bcslasercut.eu/bitrix/js/main/core/core.min.js?1790607159209038",
+    "https://bcslasercut.eu/bitrix/js/main/core/core.min.js?1791542688226345",
+    "https://bcslasercut.eu/bitrix/js/main/core/core_ajax.js",
+    "https://bcslasercut.eu/bitrix/js/main/core/core_clipboard.min.js?17647596972246",
+    "https://bcslasercut.eu/bitrix/js/main/core/core_date.min.js?178030628426793",
+    "https://bcslasercut.eu/bitrix/js/main/core/core_frame_cache.min.js?177142114910246",
+    "https://bcslasercut.eu/bitrix/js/main/core/core_promise.js",
+    "https://bcslasercut.eu/bitrix/js/main/core/core_window.min.js?176475969776324",
+    "https://bcslasercut.eu/bitrix/js/main/core/css/core_date.min.css?16607515339928",
+    "https://bcslasercut.eu/bitrix/js/main/core/css/core_hint.css",
+    "https://bcslasercut.eu/bitrix/js/main/date/main.date.min.js?174161463721981",
+    "https://bcslasercut.eu/bitrix/js/main/lazyload/dist/lazyload.bundle.js",
+    "https://bcslasercut.eu/bitrix/js/main/loadext/extension.js",
+    "https://bcslasercut.eu/bitrix/js/main/loadext/loadext.js",
+    "https://bcslasercut.eu/bitrix/js/main/parambag/dist/parambag.bundle.js",
+    "https://bcslasercut.eu/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js",
+    "https://bcslasercut.eu/bitrix/js/main/polyfill/fill/main.polyfill.fill.js",
+    "https://bcslasercut.eu/bitrix/js/main/polyfill/find/js/find.js",
+    "https://bcslasercut.eu/bitrix/js/main/polyfill/includes/js/includes.js",
+    "https://bcslasercut.eu/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js",
+    "https://bcslasercut.eu/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.min.js?15362428577124",
+    "https://bcslasercut.eu/bitrix/js/main/polyfill/matches/js/matches.js",
+    "https://bcslasercut.eu/bitrix/js/main/popup/dist/main.popup.bundle.min.css?179025696722500",
+    "https://bcslasercut.eu/bitrix/js/main/popup/dist/main.popup.bundle.min.js?179060715975890",
+    "https://bcslasercut.eu/bitrix/js/main/sidepanel/dist/side-panel.bundle.min.css?179025696722728",
+    "https://bcslasercut.eu/bitrix/js/main/sidepanel/dist/side-panel.bundle.min.js?179060715996859",
+    "https://bcslasercut.eu/bitrix/js/main/sidepanel/dist/side-panel.bundle.min.js?179154268897033",
+    "https://bcslasercut.eu/bitrix/js/pull/client/pull.client.min.js?174471771449849",
+    "https://bcslasercut.eu/bitrix/js/pull/protobuf/model.min.js?178773668521204",
+    "https://bcslasercut.eu/bitrix/js/pull/protobuf/protobuf.min.js?178773668523214",
+    "https://bcslasercut.eu/bitrix/js/rest/client/rest.client.min.js?16015491189240",
+    "https://bcslasercut.eu/bitrix/js/ui/a11y/dist/a11y.bundle.min.js?179032520332758",
+    "https://bcslasercut.eu/bitrix/js/ui/a11y/dist/a11y.bundle.min.js?179146971832758",
+    "https://bcslasercut.eu/bitrix/js/ui/design-tokens/air/dist/air-design-tokens.min.css?1790325205163306",
+    "https://bcslasercut.eu/bitrix/js/ui/design-tokens/air/dist/air-design-tokens.min.css?1791469719163306",
+    "https://bcslasercut.eu/bitrix/js/ui/design-tokens/dist/ui.design-tokens.min.css?171327662823463",
+    "https://bcslasercut.eu/bitrix/js/ui/dexie/dist/dexie.bundle.min.js?1744124719102530",
+    "https://bcslasercut.eu/bitrix/js/ui/fonts/opensans/ui.font.opensans.min.css?16620208132320",
+    "https://bcslasercut.eu/bitrix/js/ui/hint/dist/ui.hint.bundle.min.css?17822260104393",
+    "https://bcslasercut.eu/bitrix/js/ui/hint/dist/ui.hint.bundle.min.js?17903252046557",
+    "https://bcslasercut.eu/bitrix/js/ui/hint/dist/ui.hint.bundle.min.js?17914697186557",
+    "https://bcslasercut.eu/bitrix/js/ui/icon-set/actions/dist/actions.bundle.min.css?178222601020123",
+    "https://bcslasercut.eu/bitrix/js/ui/icon-set/api/core/dist/ui.icon-set.core.bundle.min.js?179032520758518",
+    "https://bcslasercut.eu/bitrix/js/ui/icon-set/api/core/dist/ui.icon-set.core.bundle.min.js?179146972158556",
+    "https://bcslasercut.eu/bitrix/js/ui/icon-set/dist/icon-set.bundle.min.css?17822260101877",
+    "https://bcslasercut.eu/bitrix/js/ui/icon-set/main/dist/main.bundle.min.css?178222601076977",
+    "https://bcslasercut.eu/bitrix/js/ui/icon-set/outline/dist/outline.bundle.min.css?1790325205146181",
+    "https://bcslasercut.eu/bitrix/js/ui/icon-set/outline/dist/outline.bundle.min.css?1791469719146392",
+    "https://bcslasercut.eu/bitrix/js/ui/polyfill/closest/js/closest.js",
+    "https://bcslasercut.eu/bitrix/js/ui/system/skeleton/dist/skeleton.bundle.min.css?1753349481395",
+    "https://bcslasercut.eu/bitrix/js/ui/system/skeleton/dist/skeleton.bundle.min.js?17640822101127",
+    "https://bcslasercut.eu/bitrix/panel/catalog/catalog_cond.min.css?15549945847248",
+    "https://bcslasercut.eu/bitrix/panel/main/popup.min.css?179025696720065",
+    "https://bcslasercut.eu/bitrix/templates/landing24/assets/js/helpers/lazyload.min.js?16989351202187",
+    "https://bcslasercut.eu/bitrix/templates/landing24/assets/vendor/bootstrap/bootstrap.min.css?1694617665177088",
+    "https://bcslasercut.eu/bitrix/templates/landing24/template_styles.min.css?16843044572401",
+    "https://bcslasercut.eu/bitrix/templates/landing24/template_styles.min.css?17915518744825",
+    "https://bcslasercut.eu/bitrix/templates/landing24/theme.min.css?1770805627536329",
+    "https://bcslasercut.eu/gtm.js",
+    "https://cdn-ru.bitrix24.ru/b136245/landing/assets/assets_webpack_695d585360_1792119612.js",
+    "https://cdn-ru.bitrix24.ru/b136245/landing/assets/assets_webpack_fa2c1fe658_1790817414.js"
+  ],
+  "resources": [
+    {
+      "url": "https://lipsia24.bitrix24.ru/b136245/resize_cache/126459/047e4a127947eff3c7d861cc2f113186/landing/e6b/e6bf10912cdb515e7fb92af77430eee7/logo.png",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/resize_cache/126459/047e4a127947eff3c7d861cc2f113186/landing/e6b/e6bf10912cdb515e7fb92af77430eee7/logo.png",
+      "mime": "image/png",
+      "bytes": 994,
+      "sha256": "2090457aaa935b35a256d3d257f048e09b70224dd1aa6013201c914a220ab3c0",
+      "width": 16,
+      "height": 16,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://lipsia24.bitrix24.ru/b136245/resize_cache/126459/a03d95df41ccb7c2ab8a9e9ebcd4cf8a/landing/e6b/e6bf10912cdb515e7fb92af77430eee7/logo.png"
+    },
+    {
+      "url": "https://lipsia24.bitrix24.ru/b136245/resize_cache/126459/45fd33a620da2e44653e6a92c96d9446/landing/e6b/e6bf10912cdb515e7fb92af77430eee7/logo.png",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/resize_cache/126459/45fd33a620da2e44653e6a92c96d9446/landing/e6b/e6bf10912cdb515e7fb92af77430eee7/logo.png",
+      "mime": "image/png",
+      "bytes": 2322,
+      "sha256": "67547289f80add1734235a674f7f478f6a5d76d900dc6a8268375d1034544eb7",
+      "width": 32,
+      "height": 32,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://lipsia24.bitrix24.ru/b136245/resize_cache/126459/a03d95df41ccb7c2ab8a9e9ebcd4cf8a/landing/e6b/e6bf10912cdb515e7fb92af77430eee7/logo.png"
+    },
+    {
+      "url": "https://lipsia24.bitrix24.ru/b136245/resize_cache/126459/c8042d925d6656dd077f15192d13bb8f/landing/e6b/e6bf10912cdb515e7fb92af77430eee7/logo.png",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/resize_cache/126459/c8042d925d6656dd077f15192d13bb8f/landing/e6b/e6bf10912cdb515e7fb92af77430eee7/logo.png",
+      "mime": "image/png",
+      "bytes": 7381,
+      "sha256": "87108f42302ff2f4a8d255093d62e16cfbd0ce8898926e2330f709fb3604dd5e",
+      "width": 96,
+      "height": 96,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://lipsia24.bitrix24.ru/b136245/resize_cache/126459/a03d95df41ccb7c2ab8a9e9ebcd4cf8a/landing/e6b/e6bf10912cdb515e7fb92af77430eee7/logo.png"
+    },
+    {
+      "url": "https://lipsia24.bitrix24.ru/b136245/resize_cache/126459/eb45a9f96698d396483d7a1236fe0380/landing/e6b/e6bf10912cdb515e7fb92af77430eee7/logo.png",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/resize_cache/126459/eb45a9f96698d396483d7a1236fe0380/landing/e6b/e6bf10912cdb515e7fb92af77430eee7/logo.png",
+      "mime": "image/png",
+      "bytes": 9154,
+      "sha256": "64e406a5d736cf5be101e70e1fb6a5217a9248cb85dced5c096a0262875755f3",
+      "width": 120,
+      "height": 120,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://lipsia24.bitrix24.ru/b136245/resize_cache/126459/a03d95df41ccb7c2ab8a9e9ebcd4cf8a/landing/e6b/e6bf10912cdb515e7fb92af77430eee7/logo.png"
+    },
+    {
+      "url": "https://lipsia24.bitrix24.ru/b136245/resize_cache/126459/a03d95df41ccb7c2ab8a9e9ebcd4cf8a/landing/e6b/e6bf10912cdb515e7fb92af77430eee7/logo.png",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/resize_cache/126459/a03d95df41ccb7c2ab8a9e9ebcd4cf8a/landing/e6b/e6bf10912cdb515e7fb92af77430eee7/logo.png",
+      "mime": "image/png",
+      "bytes": 13598,
+      "sha256": "112378ebd75032cc8fa5aba8cbcad2914214fcdac283dd445dd9f3ab3d4f7f72",
+      "width": 180,
+      "height": 180,
+      "status": "decorative/logo/tracking image omitted from production selection"
+    },
+    {
+      "url": "https://lipsia24.bitrix24.ru/b136245/resize_cache/126459/8245e211b4cc1aeef31861f9c55143e5/landing/e6b/e6bf10912cdb515e7fb92af77430eee7/logo.png",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/resize_cache/126459/8245e211b4cc1aeef31861f9c55143e5/landing/e6b/e6bf10912cdb515e7fb92af77430eee7/logo.png",
+      "mime": "image/png",
+      "bytes": 11548,
+      "sha256": "f178bcd76869582a0d725776c8608bb93c6b22aff02f0077e23f6b29e3f5b660",
+      "width": 152,
+      "height": 152,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://lipsia24.bitrix24.ru/b136245/resize_cache/126459/a03d95df41ccb7c2ab8a9e9ebcd4cf8a/landing/e6b/e6bf10912cdb515e7fb92af77430eee7/logo.png"
+    },
+    {
+      "url": "https://lipsia24.bitrix24.ru/b136245/resize_cache/126459/26c9f99963f016735739c7de412de1e1/landing/e6b/e6bf10912cdb515e7fb92af77430eee7/logo.png",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/resize_cache/126459/26c9f99963f016735739c7de412de1e1/landing/e6b/e6bf10912cdb515e7fb92af77430eee7/logo.png",
+      "mime": "image/png",
+      "bytes": 12562,
+      "sha256": "5a6ef71516162130de566c72f319fa06e99c61e763af9b9f1d920bdb148ddbd8",
+      "width": 167,
+      "height": 167,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://lipsia24.bitrix24.ru/b136245/resize_cache/126459/a03d95df41ccb7c2ab8a9e9ebcd4cf8a/landing/e6b/e6bf10912cdb515e7fb92af77430eee7/logo.png"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/002/002bc749a53698c3d665dc93ba420110/bcs_logo_lasercut_2_1x_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/002/002bc749a53698c3d665dc93ba420110/bcs_logo_lasercut_2_1x_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 3133,
+      "sha256": "d5561ddee5ff720bd3e47b89bf4ecfce413d3dcba58f1a7e6b81885cec0da745",
+      "width": 141,
+      "height": 60,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/ba7/ba71cf3837f5598af7675c40b4a74762/bcs_logo_lasercut_2_1x_1x.jpg"
+    },
+    {
+      "url": "https://img.youtube.com/vi/vmWiE-sH-r0/sddefault.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "status": "download blocked/failed",
+      "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/b54/b547c10970c34c0f50646198f8396f00/20211005_142357_2x_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/b54/b547c10970c34c0f50646198f8396f00/20211005_142357_2x_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 81512,
+      "sha256": "c3c5d3275cd2172ac08d2a0a667fc4f145adb4c5a2250e3ac51bb8529c2236de",
+      "width": 900,
+      "height": 900,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/acc/acce65735bacad1b1ae5d835824da017/20211005_142357_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/acc/acce65735bacad1b1ae5d835824da017/20211005_142357_2x_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/acc/acce65735bacad1b1ae5d835824da017/20211005_142357_2x_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 153018,
+      "sha256": "15734233201a6efb29144965d271751f8f5d831dce7ebfccb413e9ac57ac6a8d",
+      "width": 1350,
+      "height": 1350,
+      "status": "saved unchanged bytes",
+      "saved_as": "public/media/equipment/20211005_142357_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/7d1/7d11279590476245a12a79b2d97860ec/20211011_080313_2x_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/7d1/7d11279590476245a12a79b2d97860ec/20211011_080313_2x_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 58764,
+      "sha256": "e8538b9838cfd94633f66fe8f6df21e9ec1b2c1060a30c064b8f4e4bf0b63d31",
+      "width": 900,
+      "height": 900,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/d8d/d8dcc1657af91d2ac13532bea7c718b7/20211011_080313_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/d8d/d8dcc1657af91d2ac13532bea7c718b7/20211011_080313_2x_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/d8d/d8dcc1657af91d2ac13532bea7c718b7/20211011_080313_2x_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 110537,
+      "sha256": "e09d24dc343c1f77d3d3273b768cecb545c7c487e9adcd2873aafcfae8e07d00",
+      "width": 1350,
+      "height": 1350,
+      "status": "saved unchanged bytes",
+      "saved_as": "public/media/projects/20211011_080313_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/859/859385115d90609b5051d1397f99cb2c/20211208_153135_2x_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/859/859385115d90609b5051d1397f99cb2c/20211208_153135_2x_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 113519,
+      "sha256": "c1d93c16d7abf4eb2e89f89f8b69b1787437f1c2c5e284ea2ea0fa7389329c60",
+      "width": 900,
+      "height": 900,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/019/019804e762a90213de8433ca2f257c32/20211208_153135_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/019/019804e762a90213de8433ca2f257c32/20211208_153135_2x_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/019/019804e762a90213de8433ca2f257c32/20211208_153135_2x_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 223447,
+      "sha256": "78bc20c22a83b2da3dc0e0f523c1454a329415bef76f813f9d89102ff23ef254",
+      "width": 1350,
+      "height": 1350,
+      "status": "saved unchanged bytes",
+      "saved_as": "public/media/equipment/20211208_153135_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/233/233a386903ec61e219ac06d0e744b72c/20211208_153143_2x_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/233/233a386903ec61e219ac06d0e744b72c/20211208_153143_2x_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 104923,
+      "sha256": "1b1795b84fa4188a3bffdc556b75718740727da3e39f7abbd3504f3fd91759bf",
+      "width": 900,
+      "height": 900,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/ec1/ec1f8f9379f4742d7cdb0cc60ca620cc/20211208_153143_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/ec1/ec1f8f9379f4742d7cdb0cc60ca620cc/20211208_153143_2x_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/ec1/ec1f8f9379f4742d7cdb0cc60ca620cc/20211208_153143_2x_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 207717,
+      "sha256": "4116a3c6b794caa50f3b6b47ac7e22b11a85ecd4abcbbc440a1cca837ec6c332",
+      "width": 1350,
+      "height": 1350,
+      "status": "saved unchanged bytes",
+      "saved_as": "public/media/equipment/20211208_153143_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/48e/48e384e069017a4448bab6d6a0bf02d6/20211208_153220_2x_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/48e/48e384e069017a4448bab6d6a0bf02d6/20211208_153220_2x_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 96715,
+      "sha256": "cab05419dfeb309d6abd653b5134494ff79f245b7af88e79f9a3337c834ceaff",
+      "width": 900,
+      "height": 900,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/119/11909caa3cd38c95bbb5b7a4e65ec3d2/20211208_153220_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/119/11909caa3cd38c95bbb5b7a4e65ec3d2/20211208_153220_2x_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/119/11909caa3cd38c95bbb5b7a4e65ec3d2/20211208_153220_2x_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 188043,
+      "sha256": "470015c5d72e0ce76fef528d7b1fc915b4e80833e9f8e3b51cb8d04f3acc5cdc",
+      "width": 1350,
+      "height": 1350,
+      "status": "saved unchanged bytes",
+      "saved_as": "public/media/projects/20211208_153220_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/020/020c20b525a5f08fee732357952c4c97/20211208_153241_2x_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/020/020c20b525a5f08fee732357952c4c97/20211208_153241_2x_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 91489,
+      "sha256": "a6b635751994a16520706a76d1c32ea013c64d48261cc1ef3b7e2d32f0e3a854",
+      "width": 900,
+      "height": 900,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/d4c/d4cafc05663c14ec419b3a4c21bd7bb0/20211208_153241_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/d4c/d4cafc05663c14ec419b3a4c21bd7bb0/20211208_153241_2x_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/d4c/d4cafc05663c14ec419b3a4c21bd7bb0/20211208_153241_2x_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 163605,
+      "sha256": "46d8873669f042c99a1afcb13398c90f7044f29c625edde734f378485fecdec6",
+      "width": 1350,
+      "height": 1350,
+      "status": "saved unchanged bytes",
+      "saved_as": "public/media/projects/20211208_153241_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/33e/33e343fc77a1a181a3183151f6f201ea/20211208_153251_2x_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/33e/33e343fc77a1a181a3183151f6f201ea/20211208_153251_2x_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 76106,
+      "sha256": "7a137c2ed1ad34165407c1f60f03f0c157d68503109f3a3e4e25ba689c54ef41",
+      "width": 900,
+      "height": 900,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/5c0/5c01a17a1d3f7ffd0bca8aff311bd674/20211208_153251_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/5c0/5c01a17a1d3f7ffd0bca8aff311bd674/20211208_153251_2x_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/5c0/5c01a17a1d3f7ffd0bca8aff311bd674/20211208_153251_2x_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 139514,
+      "sha256": "f43f7bf7ee09405c9fe65e3787c767a782d0d0d3cca765264b3e8b1f068565cc",
+      "width": 1350,
+      "height": 1350,
+      "status": "saved unchanged bytes",
+      "saved_as": "public/media/projects/20211208_153251_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/691/691dbee9f1e16d66eed73b7d65dc41d0/20211208_153311_2x_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/691/691dbee9f1e16d66eed73b7d65dc41d0/20211208_153311_2x_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 108169,
+      "sha256": "2ce96cb07017b33ebd9e4798c69e8be6db1b85435d2d92ee5650037b15e03c3a",
+      "width": 900,
+      "height": 900,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/dab/dab3624232715c7d40287cb6ca5e7133/20211208_153311_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/dab/dab3624232715c7d40287cb6ca5e7133/20211208_153311_2x_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/dab/dab3624232715c7d40287cb6ca5e7133/20211208_153311_2x_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 216238,
+      "sha256": "6a3e5b0827bc76992687f99269eee9b69d9303e5908bbfe9cf625b4d1689ca1a",
+      "width": 1350,
+      "height": 1350,
+      "status": "saved unchanged bytes",
+      "saved_as": "public/media/projects/20211208_153311_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/e08/e0854c301f68f4fba0be71612dd8c644/20211208_153319_2x_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/e08/e0854c301f68f4fba0be71612dd8c644/20211208_153319_2x_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 81063,
+      "sha256": "fb5197ed47af1a2d6bfe9355718df353acd6c194c2646e58cace908577915c7a",
+      "width": 900,
+      "height": 900,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/0ad/0ada6e8574182d067e9ab3b0c25686d6/20211208_153319_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/0ad/0ada6e8574182d067e9ab3b0c25686d6/20211208_153319_2x_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/0ad/0ada6e8574182d067e9ab3b0c25686d6/20211208_153319_2x_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 160874,
+      "sha256": "18405e9862328c38dafe059779c3a4758e96bb08fd0f01dcc6af61027ce8757c",
+      "width": 1350,
+      "height": 1350,
+      "status": "saved unchanged bytes",
+      "saved_as": "public/media/projects/20211208_153319_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/9f7/9f75cbc069a929f1de65d059cd9c7909/20211208_153339_2x_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/9f7/9f75cbc069a929f1de65d059cd9c7909/20211208_153339_2x_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 63829,
+      "sha256": "f2e801b65d7997ff0f45d598eebb40d3fc46f5e838c6e0ada5093e35f1c63605",
+      "width": 900,
+      "height": 900,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/182/18203ad26a0a5d3e8472a8b896d00128/20211208_153339_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/182/18203ad26a0a5d3e8472a8b896d00128/20211208_153339_2x_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/182/18203ad26a0a5d3e8472a8b896d00128/20211208_153339_2x_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 122568,
+      "sha256": "8a0d17e0c9ca3e5cb070a3b6dc0be7a29fd4ea3c985f1299d81111b82ab614fa",
+      "width": 1350,
+      "height": 1350,
+      "status": "saved unchanged bytes",
+      "saved_as": "public/media/projects/20211208_153339_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/936/9366d4175360ec4d13bba6f493783148/20211209_133109_2x_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/936/9366d4175360ec4d13bba6f493783148/20211209_133109_2x_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 63271,
+      "sha256": "2b6e7a4d0862f329df4d93fe79efb2129d87699a580664fbc35ee502950fb8b4",
+      "width": 900,
+      "height": 900,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/aaa/aaae11679a3fe909eaf6fba59e975fa9/20211209_133109_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/aaa/aaae11679a3fe909eaf6fba59e975fa9/20211209_133109_2x_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/aaa/aaae11679a3fe909eaf6fba59e975fa9/20211209_133109_2x_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 116521,
+      "sha256": "3a73c41b4238f98cddbfcb8ab1da004cb0876d54609671eb83649f201377cdd7",
+      "width": 1350,
+      "height": 1350,
+      "status": "saved unchanged bytes",
+      "saved_as": "public/media/projects/20211209_133109_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/25f/25fd6b519cf1e18fa2c2d7ce709fa113/20211209_133137_2x_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/25f/25fd6b519cf1e18fa2c2d7ce709fa113/20211209_133137_2x_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 74160,
+      "sha256": "555189241d3c35f6f358eb559f632d51eb6f3a343786ab4c4b26f1c4d5f75d67",
+      "width": 900,
+      "height": 900,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/b94/b9466f7052835e1ad0d02c7e7b3b09e3/20211209_133137_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/b94/b9466f7052835e1ad0d02c7e7b3b09e3/20211209_133137_2x_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/b94/b9466f7052835e1ad0d02c7e7b3b09e3/20211209_133137_2x_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 143188,
+      "sha256": "9e73f43e5f5f0173d80a085760f81e9f6f2b7ce0cd62a7af75fa78fec03e5a17",
+      "width": 1350,
+      "height": 1350,
+      "status": "saved unchanged bytes",
+      "saved_as": "public/media/projects/20211209_133137_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/a85/a856ee7fa4022b3fc7a38fd6aa17decc/20211209_170910_2x_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/a85/a856ee7fa4022b3fc7a38fd6aa17decc/20211209_170910_2x_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 105084,
+      "sha256": "4453857a55fc345628c5bad2ae9fb629bdb04bee425099f4fa91f9270635c0b7",
+      "width": 900,
+      "height": 900,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/09d/09d56a18152dbdf0513bc7be12600323/20211209_170910_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/09d/09d56a18152dbdf0513bc7be12600323/20211209_170910_2x_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/09d/09d56a18152dbdf0513bc7be12600323/20211209_170910_2x_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 204619,
+      "sha256": "3d787b04b956c43fdc5606a0743b4888f53e2e1b2e596d8a6e5195a006e39156",
+      "width": 1350,
+      "height": 1350,
+      "status": "saved unchanged bytes",
+      "saved_as": "public/media/equipment/20211209_170910_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/01b/01b927131d8bf7629e2cca2c82cfb9c9/20211215_154416_2x_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/01b/01b927131d8bf7629e2cca2c82cfb9c9/20211215_154416_2x_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 105987,
+      "sha256": "c46c1acb97fe502232a53a9757f2e90a56c9d1aaa635b7e4460f61eda08b90bb",
+      "width": 900,
+      "height": 900,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/2c5/2c5ddddcc4681abb0c2bf46fd2c98bdd/20211215_154416_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/2c5/2c5ddddcc4681abb0c2bf46fd2c98bdd/20211215_154416_2x_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/2c5/2c5ddddcc4681abb0c2bf46fd2c98bdd/20211215_154416_2x_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 208535,
+      "sha256": "c1070001eb117981eae3f7366b033041c114a221a2220e5b7019dc3defa66725",
+      "width": 1350,
+      "height": 1350,
+      "status": "saved unchanged bytes",
+      "saved_as": "public/media/projects/20211215_154416_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/e66/e66b48a5017a7c534d9a9f87f762c13a/20211215_154437_2x_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/e66/e66b48a5017a7c534d9a9f87f762c13a/20211215_154437_2x_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 72423,
+      "sha256": "91bbbc784d96ecb43a1a1a328983dc656a9144817311ee650d52fa8715d84967",
+      "width": 900,
+      "height": 900,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/149/149c9ae3724dc14ed64cb3e1afe3670e/20211215_154437_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/149/149c9ae3724dc14ed64cb3e1afe3670e/20211215_154437_2x_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/149/149c9ae3724dc14ed64cb3e1afe3670e/20211215_154437_2x_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 145943,
+      "sha256": "99b783ec6d4c61c3dfd14388363ab05de304f93cef20e921c3c1348c3b9e6044",
+      "width": 1350,
+      "height": 1350,
+      "status": "saved unchanged bytes",
+      "saved_as": "public/media/projects/20211215_154437_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/584/584e808d30ec3bd3048afa9fb40e4b8c/20211216_170457_2x_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/584/584e808d30ec3bd3048afa9fb40e4b8c/20211216_170457_2x_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 83495,
+      "sha256": "c338f6d1aa886770ea188d6fb1935cde471696948b1a2a4892bfdd28b53ad0f9",
+      "width": 900,
+      "height": 900,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/c3c/c3c85109b1415ca837ad6eb466d95b01/20211216_170457_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/c3c/c3c85109b1415ca837ad6eb466d95b01/20211216_170457_2x_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/c3c/c3c85109b1415ca837ad6eb466d95b01/20211216_170457_2x_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 173152,
+      "sha256": "c0370aa5e92301ec1ef4386539d7290fdb7d482b2507b3f53e26dd34df311264",
+      "width": 1350,
+      "height": 1350,
+      "status": "saved unchanged bytes",
+      "saved_as": "public/media/equipment/20211216_170457_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/ae5/ae59a8074aba5723932f2243fbf0f614/20211216_170508_2x_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/ae5/ae59a8074aba5723932f2243fbf0f614/20211216_170508_2x_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 79945,
+      "sha256": "fdc19f657dc389e7bc3c7d1f0907bbc96a28601db975d8980a28e2a7b9beca44",
+      "width": 900,
+      "height": 900,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/8f0/8f0aa1617ac6f17e88f01f85a492a130/20211216_170508_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/8f0/8f0aa1617ac6f17e88f01f85a492a130/20211216_170508_2x_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/8f0/8f0aa1617ac6f17e88f01f85a492a130/20211216_170508_2x_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 164962,
+      "sha256": "054cabc4b7556dc7b19848e9c8206c2ce4f8629d707cfdaaac0956d190131bc1",
+      "width": 1350,
+      "height": 1350,
+      "status": "saved unchanged bytes",
+      "saved_as": "public/media/equipment/20211216_170508_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/d99/d99362ea8979ceae746aa9069885720c/20211216_170718_2x_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/d99/d99362ea8979ceae746aa9069885720c/20211216_170718_2x_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 89951,
+      "sha256": "90c074835d2f44d3de1e1e2c4c8636b7fbb6446d99362fec625c09def58db192",
+      "width": 900,
+      "height": 900,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/093/093fe826d206269235a057e1883f4db7/20211216_170718_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/093/093fe826d206269235a057e1883f4db7/20211216_170718_2x_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/093/093fe826d206269235a057e1883f4db7/20211216_170718_2x_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 163830,
+      "sha256": "d20b4c33b337edbae414be093d76c300bb57d84e371aacfbce5de81d32519e9d",
+      "width": 1260,
+      "height": 1260,
+      "status": "saved unchanged bytes",
+      "saved_as": "public/media/equipment/20211216_170718_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/98d/98d64de0f633d57c1432a0f847ee3d63/20211124_100439_1x_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/98d/98d64de0f633d57c1432a0f847ee3d63/20211124_100439_1x_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 46075,
+      "sha256": "587648c7d24a5e30e7882f31f6ec40fa80935cc532ce81f04e8e821d3fc0028b",
+      "width": 612,
+      "height": 816,
+      "status": "saved unchanged bytes",
+      "saved_as": "public/media/projects/20211124_100439_1x_1x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/e84/e84a6477a0ebfa120a5319e04181e0d6/20211208_153339_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/e84/e84a6477a0ebfa120a5319e04181e0d6/20211208_153339_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 31633,
+      "sha256": "f2f64952b625a363c4b633f6af53955fadaca7b39db5d85cbe1a5d34c5869626",
+      "width": 580,
+      "height": 435,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/477/47748166d5b6ff6842653b5d3bad1bc3/20211208_153339_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/477/47748166d5b6ff6842653b5d3bad1bc3/20211208_153339_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/477/47748166d5b6ff6842653b5d3bad1bc3/20211208_153339_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 81280,
+      "sha256": "7effcc1c10cc6809c188f5ed5d4b286655a1ac652b762be261fbd41384b4ae82",
+      "width": 1160,
+      "height": 870,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/182/18203ad26a0a5d3e8472a8b896d00128/20211208_153339_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/96b/96ba2cf0282f2ba277f1f75c0927b46c/20211216_170457_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/96b/96ba2cf0282f2ba277f1f75c0927b46c/20211216_170457_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 40085,
+      "sha256": "3b159b6c1ed3c4205a5e4384936ce9a3d47c850df7c409520ff6c7eb2f570db8",
+      "width": 580,
+      "height": 435,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/eaf/eaf39e3a42bcd4425e93d4815119cfbd/20211216_170457_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/eaf/eaf39e3a42bcd4425e93d4815119cfbd/20211216_170457_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/eaf/eaf39e3a42bcd4425e93d4815119cfbd/20211216_170457_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 107600,
+      "sha256": "aad60ef111b7e41ef83459f79241f5e790945d22c06b35a0ec3506b947c1b6d7",
+      "width": 1160,
+      "height": 870,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/c3c/c3c85109b1415ca837ad6eb466d95b01/20211216_170457_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/9f2/9f2e258e9b3ed9ce4efa83ba1e6ed653/20211011_075905_2x_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/9f2/9f2e258e9b3ed9ce4efa83ba1e6ed653/20211011_075905_2x_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 25090,
+      "sha256": "f0092c6ebf32b3104e7dece5258d7f19792846e09784f417ed3a136fa0ac136b",
+      "width": 580,
+      "height": 435,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/953/9539f1727668e6cfdd2aadd125294a75/20211011_075905_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/953/9539f1727668e6cfdd2aadd125294a75/20211011_075905_2x_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/953/9539f1727668e6cfdd2aadd125294a75/20211011_075905_2x_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 71867,
+      "sha256": "dba1a5ab3e41fc9a781f86caa17e728814991c0870d08d235092d1f58315214b",
+      "width": 1160,
+      "height": 870,
+      "status": "saved unchanged bytes",
+      "saved_as": "public/media/projects/20211011_075905_2x_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/ba7/ba71cf3837f5598af7675c40b4a74762/bcs_logo_lasercut_2_1x_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/",
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/ba7/ba71cf3837f5598af7675c40b4a74762/bcs_logo_lasercut_2_1x_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 31360,
+      "sha256": "4f888a1670fdd36db3b0852dadb6a44e4aac9d0d1f896343e2711f415a2271a5",
+      "width": 1200,
+      "height": 510,
+      "status": "decorative/logo/tracking image omitted from production selection"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/dcd/dcdb3e9f4ee30ed7765093bd9e5b2cc9/bcs_logo_lasercut_2_1x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/dcd/dcdb3e9f4ee30ed7765093bd9e5b2cc9/bcs_logo_lasercut_2_1x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 3156,
+      "sha256": "afb07f6e4d4ffd89cd6f3185c882f3014a8fb01d9d51d17d8feb97d469f68048",
+      "width": 141,
+      "height": 60,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/bb4/bb408e47bdc00704f122ba4fa8198e8c/bcs_logo_lasercut_2_2x.jpg"
+    },
+    {
+      "url": "https://cdn-ru.bitrix24.ru/b136245/landing/bb4/bb408e47bdc00704f122ba4fa8198e8c/bcs_logo_lasercut_2_2x.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/DE/",
+        "https://bcslasercut.eu/LV/",
+        "https://bcslasercut.eu/RU/"
+      ],
+      "final_url": "https://cdn-ru.bitrix24.ru/b136245/landing/bb4/bb408e47bdc00704f122ba4fa8198e8c/bcs_logo_lasercut_2_2x.jpg",
+      "mime": "image/jpeg",
+      "bytes": 6164,
+      "sha256": "c310d47bf7eac5d400567ed1da19d3b4cb453d60334ca332808fa0b1074656ec",
+      "width": 273,
+      "height": 116,
+      "status": "smaller linked variant omitted",
+      "preferred_url": "https://cdn-ru.bitrix24.ru/b136245/landing/ba7/ba71cf3837f5598af7675c40b4a74762/bcs_logo_lasercut_2_1x_1x.jpg"
+    },
+    {
+      "url": "https://cdn.bitrix24.site/bitrix/images/landing/patterns/pattern1.png",
+      "found_on": [
+        "https://bcslasercut.eu/bitrix/templates/landing24/theme.min.css?1770805627536329"
+      ],
+      "status": "additional host requires access"
+    },
+    {
+      "url": "https://cdn.bitrix24.site/bitrix/images/landing/patterns/pattern2.png",
+      "found_on": [
+        "https://bcslasercut.eu/bitrix/templates/landing24/theme.min.css?1770805627536329"
+      ],
+      "status": "additional host requires access"
+    },
+    {
+      "url": "https://cdn.bitrix24.site/bitrix/images/landing/patterns/pattern3.png",
+      "found_on": [
+        "https://bcslasercut.eu/bitrix/templates/landing24/theme.min.css?1770805627536329"
+      ],
+      "status": "additional host requires access"
+    },
+    {
+      "url": "https://bcslasercut.eu/bitrix/images/landing/marta.jpg",
+      "found_on": [
+        "https://bcslasercut.eu/bitrix/templates/landing24/theme.min.css?1770805627536329"
+      ],
+      "final_url": "https://bcslasercut.eu/bitrix/images/landing/marta.jpg",
+      "mime": "image/jpeg",
+      "bytes": 1322,
+      "sha256": "1f06aec00ab1cd7fcb67043dbfbbb7f5fa5cd5317a9198b6fcd5009a87635122",
+      "width": 40,
+      "height": 40,
+      "status": "decorative/logo/tracking image omitted from production selection"
+    },
+    {
+      "url": "https://bcslasercut.eu/bitrix/images/landing/buttons_styles/snowflakes-left.png",
+      "found_on": [
+        "https://bcslasercut.eu/bitrix/templates/landing24/theme.min.css?1770805627536329"
+      ],
+      "final_url": "https://bcslasercut.eu/bitrix/images/landing/buttons_styles/snowflakes-left.png",
+      "mime": "image/png",
+      "bytes": 2262,
+      "sha256": "be1fe96a3835f5c9080e021dcfc9e7243d54a81217d4e2ac07a815334dd1a322",
+      "width": 95,
+      "height": 55,
+      "status": "decorative/logo/tracking image omitted from production selection"
+    },
+    {
+      "url": "https://bcslasercut.eu/bitrix/images/landing/buttons_styles/snowflakes-right.png",
+      "found_on": [
+        "https://bcslasercut.eu/bitrix/templates/landing24/theme.min.css?1770805627536329"
+      ],
+      "final_url": "https://bcslasercut.eu/bitrix/images/landing/buttons_styles/snowflakes-right.png",
+      "mime": "image/png",
+      "bytes": 1858,
+      "sha256": "dd6576cc6b82f08df5428ac9fb7573e29c2a02055dd6c0ccafbe2619305998c9",
+      "width": 69,
+      "height": 49,
+      "status": "decorative/logo/tracking image omitted from production selection"
+    },
+    {
+      "url": "https://bcslasercut.eu/bitrix/images/landing/analytics/pixel.gif?action=",
+      "found_on": [
+        "https://bcslasercut.eu/bitrix/js/landing/metrika/dist/metrika.bundle.min.js?17891296673708"
+      ],
+      "final_url": "https://bcslasercut.eu/bitrix/images/landing/analytics/pixel.gif?action=",
+      "mime": "image/gif",
+      "bytes": 43,
+      "sha256": "b1442e85b03bdcaf66dc58c7abb98745dd2687d86350be9a298a1d9382ac849b",
+      "width": 1,
+      "height": 1,
+      "status": "decorative/logo/tracking image omitted from production selection"
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=vmWiE-sH-r0",
+      "found_on": "https://bcslasercut.eu/DE/",
+      "status": "embedded YouTube; stream URL not yet resolved; no file downloaded"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://bcslasercut.eu/gtm.js",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://bcslasercut.eu/bitrix/js/ui/polyfill/closest/js/closest.js",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://bcslasercut.eu/LV/gtm.js",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://bcslasercut.eu/RU/gtm.js",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://bcslasercut.eu/DE/gtm.js",
+      "reason": "HTTP Error 404: Not Found"
+    }
+  ],
+  "external_code_or_hosts": [
+    "https://cdn-ru.bitrix24.ru/b136245/crm/tag/call.tracker.js",
+    "https://cdn.bitrix24.site/bitrix/images/landing/patterns/pattern1.png",
+    "https://cdn.bitrix24.site/bitrix/images/landing/patterns/pattern2.png",
+    "https://cdn.bitrix24.site/bitrix/images/landing/patterns/pattern3.png",
+    "https://www.googletagmanager.com/gtm.js?id="
+  ],
+  "page_limit_reached": false,
+  "original_resolution_probe": {
+    "candidate": "https://cdn-ru.bitrix24.ru/b136245/landing/acc/acce65735bacad1b1ae5d835824da017/20211005_142357.jpg",
+    "result": "HTTP 404; retained largest linked 2x candidate without alteration"
+  },
+  "classification": "20 production photographs visually inspected in contact sheet: 7 equipment/process, 13 products/projects. No photo is replaced on the pages.",
+  "runtime_review": {
+    "file": "public/media/browser-discovery.json",
+    "pages": 4,
+    "new_photographic_urls": 0,
+    "notes": "All runtime img/currentSrc/srcset/lazy and computed background URLs reconciled with this manifest."
+  },
+  "video_blocker": {
+    "url": "https://www.youtube.com/watch?v=vmWiE-sH-r0",
+    "oembed": "CONNECT tunnel 403 from network proxy",
+    "extractor": "yt-dlp not installed; separate permission pending",
+    "content": "Press-brake content and maximum stream quality not verified"
+  }
+}
